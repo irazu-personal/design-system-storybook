@@ -1,0 +1,5 @@
+<svg width="220" height="66" viewBox="0 0 220 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M26 8C27.8 14.2 32.4 18.8 38.6 20.6C32.4 22.4 27.8 27 26 33.2C24.2 27 19.6 22.4 13.4 20.6C19.6 18.8 24.2 14.2 26 8Z" fill="#FFFFFF"/>
+  <path d="M26 40.8C28.4 48.8 34.2 54.6 42.2 57C34.2 59.4 28.4 65.2 26 73.2C23.6 65.2 17.8 59.4 9.8 57C17.8 54.6 23.6 48.8 26 40.8Z" fill="#FFFFFF"/>
+  <text x="58" y="42" font-family="Figtree, system-ui, sans-serif" font-size="28" font-weight="600" fill="#FFFFFF">Spark</text>
+</svg>

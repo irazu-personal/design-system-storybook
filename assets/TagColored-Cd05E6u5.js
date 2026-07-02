@@ -1,0 +1,10 @@
+import{j as e}from"./jsx-runtime-BYYWji4R.js";import{S as n}from"./SparkIcon-B877p_59.js";import{T as u}from"./TooltipTrigger-CeqIspS_.js";function d({label:a="Tag",variant:l="pink",showPrefixIcon:r=!1,showSuffixIcon:o=!1,onDelete:i,className:t=""}){const s=l==="disabled";return e.jsxs("span",{className:["spark-tag-colored",`spark-tag-colored-${l}`,t].filter(Boolean).join(" "),children:[r?e.jsx(n,{slug:"plus",size:"small",className:"spark-tag-colored-icon"}):null,e.jsx("span",{className:"spark-tag-colored-label",children:a}),o?e.jsx(u,{text:`Remove ${a}`,disabled:s,children:e.jsx("button",{type:"button",className:"spark-tag-colored-delete","aria-label":`Remove ${a}`,disabled:s,onClick:i,children:e.jsx(n,{slug:"trash",size:"small",className:"spark-tag-colored-icon"})})}):null]})}d.__docgenInfo={description:"",methods:[],displayName:"TagColored",props:{label:{required:!1,tsType:{name:"string"},description:"",defaultValue:{value:"'Tag'",computed:!1}},variant:{required:!1,tsType:{name:"union",raw:`| 'pink'
+| 'burgundy'
+| 'purple'
+| 'blue'
+| 'cyan'
+| 'lime'
+| 'volcano'
+| 'peach'
+| 'yellow'
+| 'disabled'`,elements:[{name:"literal",value:"'pink'"},{name:"literal",value:"'burgundy'"},{name:"literal",value:"'purple'"},{name:"literal",value:"'blue'"},{name:"literal",value:"'cyan'"},{name:"literal",value:"'lime'"},{name:"literal",value:"'volcano'"},{name:"literal",value:"'peach'"},{name:"literal",value:"'yellow'"},{name:"literal",value:"'disabled'"}]},description:"",defaultValue:{value:"'pink'",computed:!1}},showPrefixIcon:{required:!1,tsType:{name:"boolean"},description:"",defaultValue:{value:"false",computed:!1}},showSuffixIcon:{required:!1,tsType:{name:"boolean"},description:"",defaultValue:{value:"false",computed:!1}},onDelete:{required:!1,tsType:{name:"signature",type:"function",raw:"() => void",signature:{arguments:[],return:{name:"void"}}},description:""},className:{required:!1,tsType:{name:"string"},description:"",defaultValue:{value:"''",computed:!1}}}};export{d as T};

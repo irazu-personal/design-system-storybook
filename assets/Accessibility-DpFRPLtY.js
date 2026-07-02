@@ -1,0 +1,15 @@
+import{j as e}from"./jsx-runtime-BYYWji4R.js";import{useMDXComponents as i}from"./index-DUy19JZU.js";import{M as o}from"./index-RkjkVMra.js";import"./index-ClcD9ViR.js";import"./_commonjsHelpers-Cpj98o6Y.js";import"./iframe-EWtY0VPn.js";import"./index-BIandHEk.js";import"./index-Brl4xq4Y.js";import"./index-Bhelpi4i.js";function t(s){const n={code:"code",h1:"h1",h2:"h2",li:"li",p:"p",ul:"ul",...i(),...s.components};return e.jsxs(e.Fragment,{children:[e.jsx(o,{title:"Foundations/Accessibility"}),`
+`,e.jsx(n.h1,{id:"accessibility",children:"Accessibility"}),`
+`,e.jsx(n.p,{children:"Spark components follow WCAG-oriented patterns: visible focus, sufficient contrast on primary actions, and disabled states that do not rely on color alone."}),`
+`,e.jsx(n.h2,{id:"focus-ring",children:"Focus ring"}),`
+`,e.jsxs(n.p,{children:["Primary action elements use a token-backed focus ring (",e.jsx(n.code,{children:"semantic/action/primary/border/focus"}),"). Tab to the interactive button to see the ring update on focus."]}),`
+`,e.jsxs("div",{className:"focus-ring-demo",children:[e.jsxs("div",{className:"focus-ring-demo__item",children:[e.jsx("span",{className:"focus-ring-demo__label",children:"Default"}),e.jsx("button",{type:"button",className:"focus-ring-demo__button",children:"Button"})]}),e.jsxs("div",{className:"focus-ring-demo__item",children:[e.jsx("span",{className:"focus-ring-demo__label",children:"Focused"}),e.jsxs("span",{className:"focus-ring-demo__control",children:[e.jsx("button",{type:"button",className:"focus-ring-demo__button",tabIndex:-1,children:"Button"}),e.jsx("span",{className:"focus-ring-demo__ring","aria-hidden":"true"})]})]}),e.jsxs("div",{className:"focus-ring-demo__item",children:[e.jsx("span",{className:"focus-ring-demo__label",children:"Tab to focus"}),e.jsx("button",{type:"button",className:"focus-ring-demo__button focus-ring-demo__button--interactive",children:"Focus me"})]})]}),`
+`,e.jsxs(n.p,{children:["Token: ",e.jsx(n.code,{children:"--semantic-action-primary-border-focus"})," (",e.jsx(n.code,{children:"semantic/action/primary/border/focus"}),")"]}),`
+`,e.jsx(n.h2,{id:"contrast",children:"Contrast"}),`
+`,e.jsxs(n.ul,{children:[`
+`,e.jsxs(n.li,{children:["Primary button text uses ",e.jsx(n.code,{children:"--semantic-button-primary-content-on-surface"})," on ",e.jsx(n.code,{children:"--semantic-button-primary-bg-default"}),"."]}),`
+`,e.jsx(n.li,{children:"Secondary and tertiary variants maintain readable contrast on default surfaces."}),`
+`,e.jsx(n.li,{children:"Danger variants use dedicated semantic danger tokens."}),`
+`]}),`
+`,e.jsx(n.h2,{id:"disabled-state",children:"Disabled state"}),`
+`,e.jsxs(n.p,{children:["Disabled buttons set ",e.jsx(n.code,{children:"pointer-events: none"}),", use ",e.jsx(n.code,{children:"--semantic-button-disabled-bg"})," and ",e.jsx(n.code,{children:"--semantic-button-disabled-content-on-action"}),", and should include ",e.jsx(n.code,{children:"aria-disabled"})," or the native ",e.jsx(n.code,{children:"disabled"})," attribute."]})]})}function b(s={}){const{wrapper:n}={...i(),...s.components};return n?e.jsx(n,{...s,children:e.jsx(t,{...s})}):t(s)}export{b as default};
