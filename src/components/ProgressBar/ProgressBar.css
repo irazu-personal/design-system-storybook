@@ -1,0 +1,50 @@
+.spark-progress-bar {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--dimension-spacing-08);
+  width: 100%;
+  max-width: 234px;
+  font-family: var(--typography-font-family-platform);
+}
+
+.spark-progress-bar-track {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+  height: 8px;
+  border-radius: var(--dimension-border-radius-04);
+  background: var(--semantic-surface-subtle);
+  overflow: hidden;
+}
+
+.spark-progress-bar-fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  border-radius: inherit;
+  background: var(--semantic-border-active);
+}
+
+.spark-progress-bar-type-error .spark-progress-bar-fill {
+  background: var(--semantic-feedback-critical-surface-elevated);
+}
+
+.spark-progress-bar-type-disabled .spark-progress-bar-track {
+  background: var(--semantic-surface-subtle);
+}
+
+.spark-progress-bar-type-disabled .spark-progress-bar-fill {
+  background: var(--semantic-content-tertiary);
+  opacity: 0.45;
+}
+
+.spark-progress-bar-label {
+  flex-shrink: 0;
+  font-size: var(--typography-font-size-detail);
+  line-height: var(--typography-line-height-detail);
+  color: var(--semantic-content-tertiary);
+  white-space: nowrap;
+}
+
+.spark-progress-bar-type-disabled .spark-progress-bar-label {
+  color: var(--semantic-action-disabled-content-on-surface);
+}

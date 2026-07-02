@@ -1,0 +1,193 @@
+.spark-segmented-control {
+  display: inline-flex;
+  align-items: stretch;
+  font-family: var(--typography-font-family-platform);
+  max-width: 100%;
+  gap: -1px;
+}
+
+.spark-segmented-control-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  margin-left: -1px;
+  padding: 0;
+  border: none;
+  background: var(--semantic-action-secondary-bg-default);
+  color: var(--semantic-action-secondary-on-surface);
+  font-family: inherit;
+  font-weight: var(--typography-font-weight-regular);
+  cursor: pointer;
+  box-sizing: border-box;
+  white-space: nowrap;
+  position: relative;
+}
+
+.spark-segmented-control-small,
+.spark-segmented-control-medium {
+  --spark-segmented-control-stroke: var(--dimension-line-width-subtle);
+}
+
+.spark-segmented-control-large {
+  --spark-segmented-control-stroke: var(--dimension-line-width-strong);
+}
+
+.spark-segmented-control-fill .spark-segmented-control-item {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.spark-segmented-control-small {
+  border-radius: var(--dimension-border-radius-04);
+}
+
+.spark-segmented-control-medium {
+  border-radius: var(--dimension-border-radius-06);
+}
+
+.spark-segmented-control-large {
+  border-radius: var(--dimension-border-radius-08);
+}
+
+.spark-segmented-control-item-content {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--dimension-spacing-08);
+}
+
+.spark-segmented-control-item-icon {
+  flex-shrink: 0;
+  color: inherit;
+}
+
+.spark-segmented-control-item-label {
+  min-width: 0;
+}
+
+.spark-segmented-control-item-first {
+  margin-left: 0;
+  z-index: 3;
+}
+
+.spark-segmented-control-item-center {
+  z-index: 2;
+}
+
+.spark-segmented-control-item-last {
+  z-index: 1;
+}
+
+/* Hover & active rise above default stacking (first still wins at rest). */
+.spark-segmented-control-outlined .spark-segmented-control-item-active,
+.spark-segmented-control-outlined .spark-segmented-control-item-state-hover:not(:disabled),
+.spark-segmented-control-outlined .spark-segmented-control-item:not(.spark-segmented-control-item-active):not(:disabled):hover,
+.spark-segmented-control-solid .spark-segmented-control-item-state-hover:not(.spark-segmented-control-item-active):not(:disabled),
+.spark-segmented-control-solid .spark-segmented-control-item:not(.spark-segmented-control-item-active):not(:disabled):hover,
+.spark-segmented-control-solid .spark-segmented-control-item-active {
+  z-index: 4;
+}
+
+.spark-segmented-control-item:focus-visible {
+  outline: 2px solid var(--semantic-action-primary-border-hover-click-on);
+  outline-offset: 1px;
+}
+
+.spark-segmented-control-small .spark-segmented-control-item {
+  height: 28px;
+  padding: 0 var(--dimension-spacing-08);
+  font-size: var(--typography-font-size-base);
+  line-height: var(--typography-line-height-base);
+}
+
+.spark-segmented-control-medium .spark-segmented-control-item {
+  height: 36px;
+  padding: 0 var(--dimension-spacing-16);
+  font-size: var(--typography-font-size-base);
+  line-height: var(--typography-line-height-base);
+}
+
+.spark-segmented-control-large .spark-segmented-control-item {
+  height: 40px;
+  padding: 0 var(--dimension-spacing-16);
+  font-size: var(--typography-font-size-lead);
+  line-height: var(--typography-line-height-lead);
+}
+
+/* Shared segment borders — default (inactive) */
+.spark-segmented-control-outlined .spark-segmented-control-item,
+.spark-segmented-control-solid .spark-segmented-control-item {
+  border-top: var(--spark-segmented-control-stroke) solid var(--semantic-action-primary-border-default);
+  border-bottom: var(--spark-segmented-control-stroke) solid var(--semantic-action-primary-border-default);
+  border-right: var(--spark-segmented-control-stroke) solid var(--semantic-action-primary-border-default);
+  border-left: none;
+}
+
+.spark-segmented-control-outlined .spark-segmented-control-item-first,
+.spark-segmented-control-solid .spark-segmented-control-item-first {
+  border-left: var(--spark-segmented-control-stroke) solid var(--semantic-action-primary-border-default);
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+.spark-segmented-control-outlined .spark-segmented-control-item-last,
+.spark-segmented-control-solid .spark-segmented-control-item-last {
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+
+/* Hover & active — full box border on every side (Figma 183:997) */
+.spark-segmented-control-outlined .spark-segmented-control-item-active,
+.spark-segmented-control-outlined .spark-segmented-control-item-state-hover:not(:disabled),
+.spark-segmented-control-outlined .spark-segmented-control-item:not(.spark-segmented-control-item-active):not(:disabled):hover,
+.spark-segmented-control-solid .spark-segmented-control-item-state-hover:not(.spark-segmented-control-item-active):not(:disabled),
+.spark-segmented-control-solid .spark-segmented-control-item:not(.spark-segmented-control-item-active):not(:disabled):hover {
+  border-left-width: var(--spark-segmented-control-stroke);
+  border-left-style: solid;
+}
+
+.spark-segmented-control-outlined .spark-segmented-control-item-active {
+  border-color: var(--semantic-button-secondary-border);
+  color: var(--semantic-action-primary-on-surface-active);
+}
+
+.spark-segmented-control-outlined .spark-segmented-control-item-state-hover:not(.spark-segmented-control-item-active):not(:disabled),
+.spark-segmented-control-outlined .spark-segmented-control-item:not(.spark-segmented-control-item-active):not(:disabled):hover {
+  border-color: var(--semantic-action-primary-border-hover-click-on);
+}
+
+.spark-segmented-control-solid .spark-segmented-control-item-state-hover:not(.spark-segmented-control-item-active):not(:disabled),
+.spark-segmented-control-solid .spark-segmented-control-item:not(.spark-segmented-control-item-active):not(:disabled):hover {
+  background: var(--semantic-action-secondary-bg-default);
+  border-color: var(--semantic-button-secondary-border);
+  color: var(--semantic-action-primary-on-surface-default);
+}
+
+.spark-segmented-control-solid .spark-segmented-control-item-active {
+  background: var(--semantic-action-primary-bg-default);
+  border-color: var(--semantic-action-primary-bg-default);
+  border-left-width: var(--spark-segmented-control-stroke);
+  border-left-style: solid;
+  color: var(--semantic-action-primary-on-surface-inverse-active);
+}
+
+.spark-segmented-control-item:disabled,
+.spark-segmented-control-item-disabled {
+  cursor: not-allowed;
+  color: var(--semantic-action-disabled-content-on-surface);
+  border-color: var(--semantic-action-disabled-border);
+  background: var(--semantic-action-disabled-bg-primary);
+}
+
+.spark-segmented-control-solid .spark-segmented-control-item-active:disabled,
+.spark-segmented-control-solid .spark-segmented-control-item-active.spark-segmented-control-item-disabled {
+  background: var(--semantic-action-disabled-bg-tertiary);
+  border-color: var(--semantic-action-disabled-bg-tertiary);
+  color: var(--semantic-action-primary-on-surface-inverse-active);
+}
+
+.spark-segmented-control-fill {
+  width: 480px;
+  max-width: 100%;
+}

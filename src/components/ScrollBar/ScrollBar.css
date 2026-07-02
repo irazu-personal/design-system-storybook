@@ -1,0 +1,35 @@
+.spark-scrollbar {
+  display: inline-flex;
+  font-family: var(--typography-font-family-platform);
+}
+
+.spark-scrollbar-vertical {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100px;
+  padding: var(--dimension-spacing-24) var(--dimension-spacing-04);
+}
+
+.spark-scrollbar-horizontal {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 142px;
+  padding: var(--dimension-spacing-04) var(--dimension-spacing-12) var(--dimension-spacing-02);
+}
+
+.spark-scrollbar-thumb {
+  flex-shrink: 0;
+  background: var(--semantic-surface-sunken);
+  border-radius: var(--dimension-border-radius-08);
+}
+
+.spark-scrollbar-vertical .spark-scrollbar-thumb {
+  width: 6px;
+  height: 52px;
+}
+
+.spark-scrollbar-horizontal .spark-scrollbar-thumb {
+  width: 64px;
+  height: 6px;
+}

@@ -1,0 +1,46 @@
+.spark-drawer-toolbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  align-self: stretch;
+  width: 36px;
+  height: 100%;
+  padding-block: var(--dimension-spacing-08);
+  box-sizing: border-box;
+}
+
+.spark-drawer-toolbar-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--dimension-spacing-32);
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.spark-drawer-toolbar-actions,
+.spark-drawer-toolbar-steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--dimension-spacing-08);
+  flex-shrink: 0;
+}
+
+.spark-drawer-toolbar-middle {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 0;
+}
+
+.spark-drawer-toolbar-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}

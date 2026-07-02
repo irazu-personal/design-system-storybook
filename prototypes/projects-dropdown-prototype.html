@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — Spark Dropdown Prototype</title>
+  <link rel="stylesheet" href="../src/styles/tokens.css">
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: var(--typography-font-family-platform);
+      background: var(--semantic-surface-main);
+      color: var(--semantic-content-primary);
+    }
+
+    /* ---- Projects page mock ---- */
+    .projects-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 10px 40px 0;
+    }
+
+    .projects-header-left {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .projects-breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: var(--typography-font-size-base);
+      line-height: var(--typography-line-height-base);
+      color: var(--semantic-content-secondary);
+      margin-top: 2px;
+    }
+
+    .projects-breadcrumb img {
+      width: 16px;
+      height: 16px;
+      display: block;
+    }
+
+    .projects-title {
+      font-size: 32px;
+      font-weight: var(--typography-font-weight-bold);
+      line-height: 1.2;
+      color: var(--semantic-content-primary);
+      margin: 0;
+    }
+
+    .projects-subtitle {
+      font-size: var(--typography-font-size-base);
+      line-height: var(--typography-line-height-base);
+      color: var(--semantic-content-secondary);
+      margin: 0 0 24px;
+      max-width: 640px;
+    }
+
+    .projects-header-actions {
+      display: flex;
+      align-items: center;
+      gap: var(--dimension-spacing-12);
+      padding-top: 8px;
+    }
+
+    .projects-content {
+      padding: 32px 40px;
+    }
+
+    .project-card-mock {
+      border: var(--primitive-border-width-1) solid var(--semantic-action-primary-border-default);
+      border-radius: var(--dimension-border-radius-08);
+      padding: var(--dimension-spacing-16) var(--dimension-spacing-20);
+      background: var(--semantic-surface-elevated);
+      max-width: 480px;
+    }
+
+    .project-card-mock h2 {
+      margin: 0 0 var(--dimension-spacing-08);
+      font-size: var(--typography-font-size-lg);
+      font-weight: var(--typography-font-weight-semibold);
+    }
+
+    .project-card-mock p {
+      margin: 0;
+      font-size: var(--typography-font-size-base);
+      color: var(--semantic-content-secondary);
+    }
+
+    /* ---- Spark Button (medium primary danger subset) ---- */
+    .spark-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      font-family: var(--semantic-typography-button-font-family);
+      border: none;
+      cursor: pointer;
+      transition: var(--semantic-motion-button-transition);
+      white-space: nowrap;
+      text-decoration: none;
+    }
+
+    .spark-btn:focus-visible {
+      outline: none;
+      box-shadow: var(--semantic-shadow-focus-ring-neutral);
+    }
+
+    .spark-btn-medium {
+      height: var(--semantic-button-height-medium);
+      min-height: var(--semantic-button-height-medium);
+      padding: 0 var(--semantic-button-padding-x-medium);
+      font-size: var(--semantic-typography-button-medium-font-size);
+      font-weight: var(--semantic-typography-button-medium-font-weight);
+      line-height: var(--semantic-typography-button-medium-line-height);
+      border-radius: var(--semantic-button-border-radius-medium);
+      gap: var(--semantic-button-gap-icon-label-medium);
+    }
+
+    .spark-btn-primary {
+      background: var(--semantic-button-primary-bg-default);
+      color: var(--semantic-button-primary-content-on-surface);
+    }
+
+    .spark-btn-primary:hover,
+    .spark-btn-primary:active {
+      background: var(--semantic-button-primary-bg-hover-click-on);
+    }
+
+    .spark-btn-primary.spark-btn-danger {
+      background: var(--semantic-button-primary-danger-bg-default);
+      color: var(--semantic-button-primary-danger-content-on-surface);
+    }
+
+    .spark-btn-primary.spark-btn-danger:hover {
+      background: var(--semantic-button-primary-danger-bg-hover);
+    }
+
+    .spark-btn-primary.spark-btn-danger:active {
+      background: var(--semantic-button-primary-danger-bg-click-on);
+    }
+
+    .spark-btn[disabled] {
+      background: var(--semantic-button-disabled-bg) !important;
+      color: var(--semantic-button-disabled-content-on-action) !important;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+
+    /* ---- Dropdown trigger wrapper ---- */
+    .dropdown-trigger-wrap {
+      position: relative;
+      display: inline-block;
+    }
+
+    .spark-dropdown-panel {
+      display: none;
+      position: absolute;
+      top: calc(100% + var(--dimension-spacing-08));
+      right: 0;
+      z-index: 100;
+    }
+
+    .spark-dropdown-panel.is-open {
+      display: block;
+    }
+
+    /* ---- Spark Dropdown ---- */
+    .spark-dropdown {
+      display: inline-flex;
+      flex-direction: column;
+      min-width: 242px;
+      background: var(--semantic-surface-elevated);
+      border-radius: var(--dimension-border-radius-12);
+      box-shadow: var(--shadow-overlay);
+      padding: var(--dimension-spacing-08);
+      font-family: var(--typography-font-family-platform);
+      color: var(--semantic-content-primary);
+    }
+
+    .spark-dropdown-body {
+      display: flex;
+      flex-direction: column;
+      gap: var(--dimension-spacing-02);
+    }
+
+    .spark-dropdown-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--dimension-spacing-08);
+      min-height: 32px;
+      padding: var(--dimension-spacing-04) var(--dimension-spacing-08);
+      border-radius: var(--dimension-border-radius-08);
+      box-sizing: border-box;
+      color: var(--semantic-content-primary);
+      background: transparent;
+      cursor: pointer;
+    }
+
+    .spark-dropdown-item-content {
+      display: flex;
+      align-items: center;
+      gap: var(--dimension-spacing-08);
+      flex: 1;
+      min-width: 0;
+    }
+
+    .spark-dropdown-item-label {
+      font-size: var(--typography-font-size-base);
+      line-height: var(--typography-line-height-base);
+      color: inherit;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .spark-dropdown-item-prefix,
+    .spark-dropdown-item-info {
+      color: inherit;
+      flex-shrink: 0;
+      width: 16px;
+      height: 16px;
+      display: block;
+    }
+
+    .spark-dropdown-item-check {
+      color: var(--semantic-button-secondary-content-on-surface);
+      flex-shrink: 0;
+      width: 16px;
+      height: 16px;
+      display: block;
+    }
+
+    .spark-dropdown-item-selected .spark-dropdown-item-label {
+      font-weight: var(--typography-font-weight-semibold);
+    }
+
+    .spark-dropdown-item-disabled {
+      color: var(--semantic-action-disabled-content-on-surface);
+      cursor: not-allowed;
+    }
+
+    .spark-dropdown-item:not(.spark-dropdown-item-disabled):not(.spark-dropdown-item-selected):hover {
+      background: var(--semantic-action-secondary-bg-hover);
+    }
+  </style>
+</head>
+<body>
+  <header class="projects-header">
+    <div class="projects-header-left">
+      <div class="projects-breadcrumb">
+        <img src="../public/icons/home-small.svg" alt="" aria-hidden="true">
+        <span>All Projects</span>
+      </div>
+      <h1 class="projects-title">Projects</h1>
+      <p class="projects-subtitle">
+        Create and manage your projects. Projects are your high-level goals, broken down into individual tasks. Each task is a specific use case you want to solve.
+      </p>
+    </div>
+
+    <div class="projects-header-actions">
+      <div class="dropdown-trigger-wrap" id="dropdown-trigger-wrap">
+        <button
+          type="button"
+          class="spark-btn spark-btn-medium spark-btn-primary spark-btn-danger"
+          id="click-me-btn"
+          aria-expanded="false"
+          aria-haspopup="menu"
+          aria-controls="projects-dropdown-menu"
+        >
+          click me
+        </button>
+
+        <div class="spark-dropdown-panel" id="dropdown-panel">
+          <div class="spark-dropdown" id="projects-dropdown-menu" role="menu">
+            <div class="spark-dropdown-body">
+              <div class="spark-dropdown-item" role="menuitem">
+                <div class="spark-dropdown-item-content">
+                  <img class="spark-dropdown-item-prefix" src="../public/icons/user-small.svg" alt="" aria-hidden="true">
+                  <span class="spark-dropdown-item-label">Dropdown item text</span>
+                </div>
+                <img class="spark-dropdown-item-info" src="../public/icons/circle-info-small.svg" alt="" aria-hidden="true">
+              </div>
+              <div class="spark-dropdown-item" role="menuitem">
+                <div class="spark-dropdown-item-content">
+                  <img class="spark-dropdown-item-prefix" src="../public/icons/user-small.svg" alt="" aria-hidden="true">
+                  <span class="spark-dropdown-item-label">Dropdown item text</span>
+                </div>
+                <img class="spark-dropdown-item-info" src="../public/icons/circle-info-small.svg" alt="" aria-hidden="true">
+              </div>
+              <div class="spark-dropdown-item spark-dropdown-item-selected" role="menuitem" aria-selected="true">
+                <div class="spark-dropdown-item-content">
+                  <img class="spark-dropdown-item-prefix" src="../public/icons/user-small.svg" alt="" aria-hidden="true">
+                  <span class="spark-dropdown-item-label">Dropdown item text</span>
+                  <img class="spark-dropdown-item-check" src="../public/icons/dropdown-check-small.svg" alt="" aria-hidden="true">
+                </div>
+                <img class="spark-dropdown-item-info" src="../public/icons/circle-info-small.svg" alt="" aria-hidden="true">
+              </div>
+              <div class="spark-dropdown-item spark-dropdown-item-disabled" role="menuitem" aria-disabled="true">
+                <div class="spark-dropdown-item-content">
+                  <img class="spark-dropdown-item-prefix" src="../public/icons/user-small.svg" alt="" aria-hidden="true">
+                  <span class="spark-dropdown-item-label">Dropdown item text</span>
+                </div>
+                <img class="spark-dropdown-item-info" src="../public/icons/circle-info-small.svg" alt="" aria-hidden="true">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button type="button" class="spark-btn spark-btn-medium spark-btn-primary" disabled>
+        Create New Project
+      </button>
+    </div>
+  </header>
+
+  <main class="projects-content">
+    <article class="project-card-mock">
+      <h2>Sample Project</h2>
+      <p>Placeholder project card — tasks for this project would appear here in the real app.</p>
+    </article>
+  </main>
+
+  <script>
+    (function () {
+      const triggerWrap = document.getElementById('dropdown-trigger-wrap');
+      const button = document.getElementById('click-me-btn');
+      const panel = document.getElementById('dropdown-panel');
+
+      function isOpen() {
+        return panel.classList.contains('is-open');
+      }
+
+      function setOpen(open) {
+        panel.classList.toggle('is-open', open);
+        button.setAttribute('aria-expanded', String(open));
+      }
+
+      function toggle() {
+        setOpen(!isOpen());
+      }
+
+      button.addEventListener('click', function (event) {
+        event.stopPropagation();
+        toggle();
+      });
+
+      document.addEventListener('click', function (event) {
+        if (!triggerWrap.contains(event.target)) {
+          setOpen(false);
+        }
+      });
+
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape' && isOpen()) {
+          setOpen(false);
+          button.focus();
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

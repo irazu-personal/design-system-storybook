@@ -1,0 +1,18 @@
+.spark-input-chevron {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  color: var(--semantic-action-primary-on-surface-default);
+}
+
+.spark-input-chevron > span[aria-hidden='true'] {
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.spark-input-chevron-disabled {
+  color: var(--semantic-action-disabled-content-on-surface);
+}

@@ -1,0 +1,14 @@
+.spark-tag-pill {
+  display: inline-flex;
+  align-items: center;
+  height: 24px;
+  padding: 0 var(--dimension-spacing-08);
+  border-radius: var(--primitive-radius-full);
+  background: var(--semantic-action-secondary-bg-default);
+  border: var(--dimension-line-width-subtle) solid var(--semantic-action-primary-border-default);
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-base);
+  line-height: var(--typography-line-height-base);
+  color: var(--semantic-content-primary);
+  white-space: nowrap;
+}

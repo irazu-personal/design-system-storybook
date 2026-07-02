@@ -1,0 +1,93 @@
+.spark-floating-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-height: 24px;
+  max-height: 24px;
+  max-width: 232px;
+  padding: 0 var(--dimension-spacing-12);
+  border: var(--dimension-line-width-subtle) solid var(--semantic-button-tertiary-border);
+  border-radius: var(--dimension-border-radius-08);
+  background: var(--semantic-button-secondary-bg-default);
+  color: var(--semantic-button-tertiary-content-on-surface);
+  box-shadow: var(--shadow-drawer-icon-button);
+  font-family: var(--semantic-typography-button-font-family);
+  font-size: var(--typography-font-size-detail);
+  font-weight: var(--typography-font-weight-regular);
+  line-height: var(--typography-line-height-detail);
+  text-align: center;
+  cursor: pointer;
+  transition: var(--semantic-motion-button-transition);
+}
+
+.spark-floating-button-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--dimension-spacing-04);
+  width: 100%;
+  min-width: 0;
+  height: 24px;
+}
+
+.spark-floating-button-start-icon,
+.spark-floating-button-end-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: inherit;
+}
+
+.spark-floating-button-label {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+  text-align: center;
+  line-height: 24px;
+}
+
+.spark-floating-button:not(:disabled):hover,
+.spark-floating-button-state-hover {
+  background: var(--semantic-button-tertiary-bg-default);
+  color: var(--semantic-button-tertiary-content-on-surface-hover-click-on);
+}
+
+.spark-floating-button:not(:disabled):active,
+.spark-floating-button-state-click-on {
+  background: var(--semantic-button-tertiary-bg-click-on);
+  color: var(--semantic-button-tertiary-content-on-surface-hover-click-on);
+}
+
+.spark-floating-button:disabled,
+.spark-floating-button-state-disabled {
+  background: var(--semantic-button-disabled-bg);
+  border-color: var(--semantic-border-default);
+  color: var(--semantic-button-disabled-content-on-action);
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.spark-floating-button:focus-visible {
+  outline: none;
+}
+
+.spark-floating-button:focus-visible::after,
+.spark-floating-button-show-focus::after {
+  content: '';
+  position: absolute;
+  inset: calc(-1 * var(--dimension-line-width-focus)) -1px;
+  border: var(--dimension-line-width-focus) solid var(--semantic-button-border-focus);
+  border-radius: calc(var(--dimension-border-radius-08) + var(--dimension-line-width-focus));
+  pointer-events: none;
+}
+
+.spark-floating-button-state-hover,
+.spark-floating-button-state-click-on,
+.spark-floating-button-state-disabled {
+  pointer-events: none;
+}

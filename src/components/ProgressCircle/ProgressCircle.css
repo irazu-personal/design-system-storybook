@@ -1,0 +1,43 @@
+.spark-progress-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.spark-progress-circle-svg {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.spark-progress-circle-track {
+  fill: none;
+  stroke: var(--semantic-border-default);
+  stroke-width: 2;
+}
+
+.spark-progress-circle-arc {
+  fill: none;
+  stroke: var(--semantic-border-active);
+  stroke-width: 2;
+  stroke-linecap: round;
+  transform-origin: center;
+  transform: rotate(-90deg);
+}
+
+.spark-progress-circle-finish-ring {
+  fill: none;
+  stroke: var(--semantic-feedback-success-on-surface);
+  stroke-width: 2;
+}
+
+.spark-progress-circle-finish-check {
+  fill: none;
+  stroke: var(--semantic-feedback-success-on-surface);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}

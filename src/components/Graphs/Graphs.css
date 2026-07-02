@@ -1,0 +1,658 @@
+.spark-graph-card {
+  display: inline-flex;
+  flex-direction: column;
+  gap: var(--dimension-spacing-32);
+  width: 100%;
+  max-width: 380px;
+  min-height: 280px;
+  padding: var(--dimension-spacing-16);
+  background: var(--semantic-surface-white);
+  border-radius: var(--dimension-border-radius-12);
+}
+
+.spark-graph-card-line {
+  max-width: 348px;
+  min-height: 300px;
+}
+
+.spark-graph-card-area {
+  max-width: 504px;
+  min-height: 324px;
+}
+
+.spark-graph-card-pie {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--dimension-spacing-48);
+  max-width: 500px;
+  min-height: 212px;
+}
+
+.spark-graph-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--dimension-spacing-08);
+  min-height: 20px;
+}
+
+.spark-graph-title {
+  margin: 0;
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-base);
+  font-weight: var(--typography-font-weight-medium);
+  line-height: var(--typography-line-height-base);
+  color: var(--semantic-content-primary);
+  white-space: nowrap;
+}
+
+.spark-graph-subtitle {
+  margin: 0;
+  margin-left: auto;
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-detail);
+  font-weight: var(--typography-font-weight-regular);
+  line-height: var(--typography-line-height-detail);
+  color: var(--semantic-content-secondary);
+  white-space: nowrap;
+}
+
+.spark-graph-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--dimension-spacing-16);
+  min-height: 0;
+}
+
+.spark-graph-plot-wrap {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 160px;
+  --spark-graph-plot-y-inset: calc(var(--typography-line-height-detail) / 2);
+  --spark-graph-bar-x-axis-height: var(--typography-line-height-detail);
+}
+
+.spark-graph-y-grid {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 160px;
+}
+
+.spark-graph-y-row {
+  display: flex;
+  align-items: center;
+  gap: var(--dimension-spacing-16);
+}
+
+.spark-graph-y-label {
+  width: 20px;
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-detail);
+  font-weight: var(--typography-font-weight-regular);
+  line-height: var(--typography-line-height-detail);
+  color: var(--semantic-content-secondary);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.spark-graph-grid-line {
+  flex: 1;
+  height: 1px;
+  background: var(--semantic-graph-grid);
+}
+
+.spark-graph-grid-hidden {
+  flex: 1;
+  min-height: 160px;
+}
+
+.spark-graph-plot-overlay {
+  position: absolute;
+  inset: 0 0 24px 36px;
+  pointer-events: none;
+}
+
+.spark-graph-plot-interactive {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  pointer-events: auto;
+}
+
+.spark-graph-plot-overlay-bar {
+  inset: 0
+    0
+    calc(var(--spark-graph-bar-x-axis-height) + var(--spark-graph-plot-y-inset))
+    32px;
+  padding: 0 var(--dimension-spacing-16);
+}
+
+.spark-graph-plot-overlay-bar-full {
+  inset: 0;
+  padding: 0 var(--dimension-spacing-16);
+}
+
+.spark-graph-plot-interactive-bar {
+  width: 100%;
+  height: 100%;
+}
+
+.spark-graph-plot-interactive-bar-horizontal {
+  position: absolute;
+  inset: 0;
+  padding: var(--dimension-spacing-04) 0;
+}
+
+.spark-graph-crosshair {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  border-left: 1px dashed var(--semantic-content-secondary);
+  transform: translateX(-50%);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.spark-graph-hover-markers {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.spark-graph-hover-marker {
+  position: absolute;
+  box-sizing: border-box;
+  border-style: solid;
+  border-radius: 50%;
+  background: var(--semantic-surface-white);
+  transform: translate(-50%, -50%);
+}
+
+.spark-graph-chart-tooltip {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dimension-spacing-08);
+  min-width: 120px;
+  padding: var(--dimension-spacing-08) var(--dimension-spacing-12);
+  background: var(--semantic-surface-tooltip);
+  border-radius: var(--dimension-border-radius-08);
+  box-shadow: 0 4px 16px rgb(26 27 35 / 16%);
+  pointer-events: none;
+  z-index: 4;
+}
+
+.spark-graph-chart-tooltip-floating {
+  position: absolute;
+  transform: translate(12px, -12px);
+}
+
+.spark-graph-chart-tooltip-heading {
+  margin: 0;
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-detail);
+  font-weight: var(--typography-font-weight-semibold);
+  line-height: var(--typography-line-height-detail);
+  color: var(--semantic-surface-white);
+}
+
+.spark-graph-chart-tooltip-items {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dimension-spacing-04);
+}
+
+.spark-graph-chart-tooltip-item {
+  display: flex;
+  align-items: center;
+  gap: var(--dimension-spacing-08);
+}
+
+.spark-graph-chart-tooltip-swatch {
+  width: 8px;
+  height: 8px;
+  border-radius: var(--dimension-border-radius-04);
+  flex-shrink: 0;
+}
+
+.spark-graph-crosshair-horizontal {
+  top: auto;
+  left: 0;
+  right: 0;
+  width: auto;
+  height: 0;
+  border-left: none;
+  border-top: 1px dashed var(--semantic-content-secondary);
+  transform: translateY(-50%);
+}
+
+.spark-graph-chart-tooltip-label {
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-detail);
+  font-weight: var(--typography-font-weight-regular);
+  line-height: var(--typography-line-height-detail);
+  color: var(--semantic-surface-white);
+  white-space: nowrap;
+}
+
+.spark-graph-line-svg,
+.spark-graph-area-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.spark-graph-plot-area {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 160px;
+  --spark-graph-plot-y-inset: calc(var(--typography-line-height-detail) / 2);
+}
+
+.spark-graph-plot-overlay-area {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 36px;
+}
+
+.spark-graph-plot-overlay-area-shown {
+  top: var(--spark-graph-plot-y-inset);
+  bottom: var(--spark-graph-plot-y-inset);
+}
+
+.spark-graph-plot-overlay-area-full {
+  left: 0;
+}
+
+.spark-graph-plot-overlay-area-full.spark-graph-plot-overlay-area-shown {
+  top: var(--spark-graph-plot-y-inset);
+  bottom: var(--spark-graph-plot-y-inset);
+}
+
+.spark-graph-line-path {
+  fill: none;
+  stroke-width: 2;
+}
+
+.spark-graph-area-fill {
+  stroke: none;
+}
+
+.spark-graph-area-line {
+  fill: none;
+  stroke-width: 2;
+}
+
+.spark-graph-x-axis {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dimension-spacing-08);
+  padding-left: var(--dimension-spacing-48);
+}
+
+.spark-graph-x-labels {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-detail);
+  font-weight: var(--typography-font-weight-regular);
+  line-height: var(--typography-line-height-detail);
+  color: var(--semantic-content-secondary);
+}
+
+.spark-graph-x-title {
+  margin: 0;
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-detail);
+  font-weight: var(--typography-font-weight-semibold);
+  line-height: var(--typography-line-height-detail);
+  color: var(--semantic-content-primary);
+  text-align: center;
+}
+
+.spark-graph-legend {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dimension-spacing-08);
+}
+
+.spark-graph-legend-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--dimension-spacing-16);
+}
+
+.spark-graph-legend-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dimension-spacing-08);
+  min-width: 111px;
+}
+
+.spark-graph-legend-columns {
+  display: flex;
+  gap: var(--dimension-spacing-24);
+}
+
+.spark-graph-legend-item {
+  display: flex;
+  align-items: center;
+  gap: var(--dimension-spacing-08);
+}
+
+.spark-graph-legend-list .spark-graph-legend-item {
+  width: 100%;
+}
+
+.spark-graph-legend-item-dimmed {
+  opacity: 0.45;
+}
+
+.spark-graph-legend-item-active {
+  opacity: 1;
+}
+
+.spark-graph-legend-swatch {
+  width: 8px;
+  height: 8px;
+  border-radius: var(--dimension-border-radius-04);
+  flex-shrink: 0;
+}
+
+.spark-graph-legend-label {
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-detail);
+  font-weight: var(--typography-font-weight-regular);
+  line-height: var(--typography-line-height-detail);
+  color: var(--semantic-content-secondary);
+  white-space: nowrap;
+}
+
+.spark-graph-legend-value {
+  margin-left: auto;
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-detail);
+  font-weight: var(--typography-font-weight-semibold);
+  line-height: var(--typography-line-height-detail);
+  color: var(--semantic-content-primary);
+  white-space: nowrap;
+}
+
+.spark-graph-legend-title {
+  margin: 0;
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-base);
+  font-weight: var(--typography-font-weight-semibold);
+  line-height: var(--typography-line-height-base);
+  color: var(--semantic-content-primary);
+}
+
+.spark-graph-bar-groups {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--dimension-spacing-16);
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+}
+
+.spark-graph-plot-wrap-horizontal {
+  min-height: 180px;
+}
+
+.spark-graph-bar-horizontal-layout {
+  display: flex;
+  flex: 1;
+  gap: var(--dimension-spacing-08);
+  min-height: 160px;
+}
+
+.spark-graph-bar-horizontal-plot {
+  position: relative;
+  flex: 1;
+  min-height: 160px;
+}
+
+.spark-graph-bar-horizontal-plot-offset {
+  padding-left: 30px;
+}
+
+.spark-graph-bar-horizontal-plot-with-column {
+  padding-left: 0;
+}
+
+.spark-graph-bar-category-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  flex-shrink: 0;
+  padding: var(--dimension-spacing-08) var(--dimension-spacing-12) var(--dimension-spacing-32)
+    var(--dimension-spacing-02);
+}
+
+.spark-graph-bar-category-column-label {
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-detail);
+  font-weight: var(--typography-font-weight-regular);
+  line-height: var(--typography-line-height-detail);
+  color: var(--semantic-content-secondary);
+  white-space: nowrap;
+}
+
+.spark-graph-horizontal-grid {
+  position: absolute;
+  inset: 0 0 0 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  pointer-events: none;
+}
+
+.spark-graph-horizontal-grid-col {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+}
+
+.spark-graph-grid-line-vertical {
+  width: 1px;
+  height: 100%;
+  background: var(--semantic-graph-grid);
+}
+
+.spark-graph-grid-line-vertical-axis {
+  width: 2px;
+  background: var(--semantic-graph-axis);
+}
+
+.spark-graph-grid-hidden-horizontal {
+  position: absolute;
+  inset: 0;
+}
+
+.spark-graph-horizontal-value-axis {
+  display: flex;
+  justify-content: space-between;
+  padding-right: var(--dimension-spacing-08);
+  margin-top: var(--dimension-spacing-08);
+}
+
+.spark-graph-horizontal-value-label {
+  width: 20px;
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-detail);
+  font-weight: var(--typography-font-weight-regular);
+  line-height: var(--typography-line-height-detail);
+  color: var(--semantic-content-secondary);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.spark-graph-bar-group {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.spark-graph-bar-stack {
+  display: flex;
+  flex: 1;
+  gap: 2px;
+  align-items: flex-end;
+  justify-content: center;
+  width: 41px;
+  min-height: 0;
+}
+
+.spark-graph-bar-track {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-self: stretch;
+  justify-content: flex-end;
+  min-width: 0;
+  background: var(--semantic-surface-subtle);
+  border-top-left-radius: var(--dimension-border-radius-04);
+  border-top-right-radius: var(--dimension-border-radius-04);
+}
+
+.spark-graph-bar {
+  width: 100%;
+  border-top-left-radius: var(--dimension-border-radius-08);
+  border-top-right-radius: var(--dimension-border-radius-08);
+}
+
+.spark-graph-bar-series-2,
+.spark-graph-bar-series-3 {
+  border-top-left-radius: var(--dimension-border-radius-24);
+  border-top-right-radius: var(--dimension-border-radius-24);
+}
+
+.spark-graph-bar-group-dimmed {
+  opacity: 0.45;
+}
+
+.spark-graph-bar-group-active {
+  opacity: 1;
+}
+
+.spark-graph-bar-label {
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-detail);
+  font-weight: var(--typography-font-weight-regular);
+  line-height: var(--typography-line-height-detail);
+  color: var(--semantic-content-secondary);
+  white-space: nowrap;
+}
+
+.spark-graph-bar-horizontal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--dimension-spacing-12);
+  width: 100%;
+  height: 100%;
+}
+
+.spark-graph-bar-horizontal-row {
+  display: flex;
+  align-items: center;
+  gap: var(--dimension-spacing-12);
+  min-height: 0;
+}
+
+.spark-graph-bar-horizontal-label {
+  width: 20px;
+  flex-shrink: 0;
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-detail);
+  font-weight: var(--typography-font-weight-regular);
+  line-height: var(--typography-line-height-detail);
+  color: var(--semantic-content-secondary);
+  white-space: nowrap;
+}
+
+.spark-graph-bar-horizontal-track {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.spark-graph-bar-horizontal-bar {
+  height: 8px;
+  border-radius: var(--dimension-border-radius-24);
+}
+
+.spark-graph-bar-horizontal-row-dimmed {
+  opacity: 0.45;
+}
+
+.spark-graph-bar-horizontal-row-active {
+  opacity: 1;
+}
+
+.spark-graph-pie-wrap {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.spark-graph-pie-svg {
+  width: 156px;
+  height: 180px;
+  flex-shrink: 0;
+}
+
+.spark-graph-pie-segment {
+  fill: none;
+  stroke-width: 28;
+  pointer-events: stroke;
+  cursor: pointer;
+  transition: opacity 120ms ease;
+}
+
+.spark-graph-pie-segment-dimmed,
+.spark-graph-pie-wedge-dimmed {
+  opacity: 0.45;
+}
+
+.spark-graph-pie-segment-active,
+.spark-graph-pie-wedge-active {
+  opacity: 1;
+}
+
+.spark-graph-pie-wedge {
+  stroke: var(--semantic-surface-white);
+  stroke-width: 1;
+  pointer-events: all;
+  cursor: pointer;
+  transition: opacity 120ms ease;
+}
+
+.spark-graph-pie-donut-hole {
+  fill: var(--semantic-surface-white);
+}
+
+.spark-graph-pie-center-label {
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-base);
+  font-weight: var(--typography-font-weight-semibold);
+  fill: var(--semantic-content-primary);
+}

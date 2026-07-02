@@ -1,0 +1,47 @@
+.spark-drawer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: visible;
+  font-family: var(--typography-font-family-platform);
+}
+
+.spark-drawer-with-overlay {
+  width: 100%;
+  min-height: 874px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.spark-drawer-no-overlay {
+  width: fit-content;
+  min-height: 874px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-inline-start: auto;
+  margin-inline-end: 0;
+  overflow: visible;
+  padding: 24px 24px 24px 28px;
+  box-sizing: content-box;
+}
+
+.spark-drawer-panel {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex: 0 0 auto;
+  align-self: flex-end;
+  flex-direction: column;
+  align-items: stretch;
+  width: fit-content;
+  height: 874px;
+  min-height: 874px;
+  background: transparent;
+  box-shadow: none;
+}

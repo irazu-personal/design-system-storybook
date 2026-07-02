@@ -1,0 +1,16 @@
+.spark-auto-complete {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 256px;
+  max-width: 100%;
+  font-family: var(--typography-font-family-platform);
+}
+
+.spark-auto-complete .spark-search {
+  width: 100%;
+}
+
+.spark-auto-complete-panel {
+  margin-top: var(--dimension-spacing-04);
+}

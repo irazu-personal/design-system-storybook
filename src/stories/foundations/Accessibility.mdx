@@ -1,0 +1,41 @@
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Foundations/Accessibility" />
+
+# Accessibility
+
+Spark components follow WCAG-oriented patterns: visible focus, sufficient contrast on primary actions, and disabled states that do not rely on color alone.
+
+## Focus ring
+
+Primary action elements use a token-backed focus ring (`semantic/action/primary/border/focus`). Tab to the interactive button to see the ring update on focus.
+
+<div className="focus-ring-demo">
+  <div className="focus-ring-demo__item">
+    <span className="focus-ring-demo__label">Default</span>
+    <button type="button" className="focus-ring-demo__button">Button</button>
+  </div>
+  <div className="focus-ring-demo__item">
+    <span className="focus-ring-demo__label">Focused</span>
+    <span className="focus-ring-demo__control">
+      <button type="button" className="focus-ring-demo__button" tabIndex={-1}>Button</button>
+      <span className="focus-ring-demo__ring" aria-hidden="true" />
+    </span>
+  </div>
+  <div className="focus-ring-demo__item">
+    <span className="focus-ring-demo__label">Tab to focus</span>
+    <button type="button" className="focus-ring-demo__button focus-ring-demo__button--interactive">Focus me</button>
+  </div>
+</div>
+
+Token: `--semantic-action-primary-border-focus` (`semantic/action/primary/border/focus`)
+
+## Contrast
+
+- Primary button text uses `--semantic-button-primary-content-on-surface` on `--semantic-button-primary-bg-default`.
+- Secondary and tertiary variants maintain readable contrast on default surfaces.
+- Danger variants use dedicated semantic danger tokens.
+
+## Disabled state
+
+Disabled buttons set `pointer-events: none`, use `--semantic-button-disabled-bg` and `--semantic-button-disabled-content-on-action`, and should include `aria-disabled` or the native `disabled` attribute.

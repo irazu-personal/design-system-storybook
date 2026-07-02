@@ -1,0 +1,37 @@
+.spark-drawer-body {
+  position: relative;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  width: 100%;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.spark-drawer-body-padded {
+  padding: var(--dimension-spacing-24);
+  box-sizing: border-box;
+}
+
+.spark-drawer-slot-placeholder {
+  flex: 1 1 auto;
+  width: 100%;
+  min-height: 0;
+  background: var(--semantic-feedback-critical-surface-muted);
+}
+
+.spark-drawer-scrollbar {
+  position: absolute;
+  top: 0;
+  right: 4px;
+  bottom: 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-end;
+  padding: var(--dimension-spacing-24) var(--dimension-spacing-04);
+  pointer-events: none;
+}
+
+.spark-drawer-body .spark-scrollbar-vertical {
+  height: 100%;
+}

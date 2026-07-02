@@ -1,0 +1,393 @@
+.spark-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-family: var(--semantic-typography-button-font-family);
+  border: none;
+  cursor: pointer;
+  transition: var(--semantic-motion-button-transition);
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.spark-btn:focus-visible {
+  outline: none;
+  box-shadow: var(--semantic-shadow-focus-ring-neutral);
+}
+
+.spark-btn svg,
+.spark-btn-icon img {
+  flex-shrink: 0;
+  display: block;
+}
+
+.spark-btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.spark-btn-tiny {
+  height: var(--semantic-button-height-tiny);
+  min-height: var(--semantic-button-height-tiny);
+  padding: 0 var(--semantic-button-padding-x-tiny);
+  font-size: var(--semantic-typography-button-tiny-font-size);
+  font-weight: var(--semantic-typography-button-tiny-font-weight);
+  line-height: var(--semantic-typography-button-tiny-line-height);
+  border-radius: var(--semantic-button-border-radius-small);
+  gap: var(--semantic-button-gap-icon-label-tiny);
+}
+
+.spark-btn-small {
+  height: var(--semantic-button-height-small);
+  min-height: var(--semantic-button-height-small);
+  padding: 0 var(--semantic-button-padding-x-small);
+  font-size: var(--semantic-typography-button-small-font-size);
+  font-weight: var(--semantic-typography-button-small-font-weight);
+  line-height: var(--semantic-typography-button-small-line-height);
+  border-radius: var(--semantic-button-border-radius-small);
+  gap: var(--semantic-button-gap-icon-label-small);
+}
+
+.spark-btn-medium {
+  height: var(--semantic-button-height-medium);
+  min-height: var(--semantic-button-height-medium);
+  padding: 0 var(--semantic-button-padding-x-medium);
+  font-size: var(--semantic-typography-button-medium-font-size);
+  font-weight: var(--semantic-typography-button-medium-font-weight);
+  line-height: var(--semantic-typography-button-medium-line-height);
+  border-radius: var(--semantic-button-border-radius-medium);
+  gap: var(--semantic-button-gap-icon-label-medium);
+}
+
+.spark-btn-large {
+  height: var(--semantic-button-height-large);
+  min-height: var(--semantic-button-height-large);
+  padding: 0 var(--semantic-button-padding-x-large);
+  font-size: var(--semantic-typography-button-large-font-size);
+  font-weight: var(--semantic-typography-button-large-font-weight);
+  line-height: var(--semantic-typography-button-large-line-height);
+  border-radius: var(--semantic-button-border-radius-medium);
+  gap: var(--semantic-button-gap-icon-label-large);
+}
+
+.spark-btn-tiny svg {
+  width: var(--semantic-button-icon-size-tiny);
+  height: var(--semantic-button-icon-size-tiny);
+}
+
+.spark-btn-small svg {
+  width: var(--semantic-button-icon-size-small);
+  height: var(--semantic-button-icon-size-small);
+}
+
+.spark-btn-medium svg {
+  width: var(--semantic-button-icon-size-medium);
+  height: var(--semantic-button-icon-size-medium);
+}
+
+.spark-btn-large svg {
+  width: var(--semantic-button-icon-size-large);
+  height: var(--semantic-button-icon-size-large);
+}
+
+.spark-btn-fill {
+  flex: 1 1 0;
+  width: 100%;
+  min-width: 0;
+}
+
+/* Icon-only sizing (Button Icon component) */
+
+.spark-btn-icon-only.spark-btn-tiny,
+.spark-btn-icon-only.spark-btn-small {
+  /* Figma Button Icon `border-radius/06` (6px). Primitive token is overridden by compatibility aliases. */
+  border-radius: 6px;
+}
+
+.spark-btn-icon-only.spark-btn-medium,
+.spark-btn-icon-only.spark-btn-large {
+  border-radius: var(--dimension-border-radius-08);
+}
+
+.spark-btn-icon-only.spark-btn-tiny {
+  width: var(--semantic-button-height-tiny);
+  padding: 0;
+  gap: 0;
+}
+
+.spark-btn-icon-only.spark-btn-small {
+  width: var(--semantic-button-height-small);
+  padding: 0;
+  gap: 0;
+}
+
+.spark-btn-icon-only.spark-btn-medium {
+  width: var(--semantic-button-height-medium);
+  padding: 0;
+  gap: 0;
+}
+
+.spark-btn-icon-only.spark-btn-large {
+  width: var(--semantic-button-height-large);
+  padding: 0;
+  gap: 0;
+}
+
+/* Primary */
+.spark-btn-primary {
+  background: var(--semantic-button-primary-bg-default);
+  color: var(--semantic-button-primary-content-on-surface);
+}
+
+.spark-btn-primary:hover,
+.spark-btn-primary:active {
+  background: var(--semantic-button-primary-bg-hover-click-on);
+}
+
+.spark-btn-primary.spark-btn-danger {
+  background: var(--semantic-button-primary-danger-bg-default);
+  color: var(--semantic-button-primary-danger-content-on-surface);
+}
+
+.spark-btn-primary.spark-btn-danger:hover {
+  background: var(--semantic-button-primary-danger-bg-hover);
+}
+
+.spark-btn-primary.spark-btn-danger:active {
+  background: var(--semantic-button-primary-danger-bg-click-on);
+}
+
+/* Secondary */
+.spark-btn-secondary {
+  background: var(--semantic-button-secondary-bg-default);
+  color: var(--semantic-button-secondary-content-on-surface);
+  border: var(--primitive-border-width-1) solid var(--semantic-button-secondary-border);
+}
+
+.spark-btn-secondary:hover {
+  background: var(--semantic-button-secondary-bg-hover);
+  border-color: var(--semantic-button-secondary-border-hover);
+}
+
+.spark-btn-secondary:active {
+  background: var(--semantic-button-secondary-bg-click-on);
+  border-color: var(--semantic-button-secondary-content-on-surface);
+}
+
+.spark-btn-secondary.spark-btn-danger {
+  background: var(--semantic-button-secondary-danger-bg-default);
+  color: var(--semantic-button-secondary-danger-content-on-surface);
+  border-color: var(--semantic-button-secondary-danger-content-on-surface);
+}
+
+.spark-btn-secondary.spark-btn-danger:hover {
+  background: var(--semantic-button-secondary-danger-bg-hover);
+  border-color: var(--semantic-button-secondary-danger-content-on-surface);
+}
+
+.spark-btn-secondary.spark-btn-danger:active {
+  background: var(--semantic-button-secondary-danger-bg-default);
+  border-color: var(--semantic-button-secondary-danger-content-on-surface);
+  font-weight: var(--typography-font-weight-regular);
+}
+
+/* Tertiary (text button only — no danger variant in Figma Button Main) */
+.spark-btn-tertiary:not(.spark-btn-icon-only) {
+  background: var(--semantic-button-tertiary-bg-default);
+  color: var(--semantic-button-tertiary-content-on-surface);
+  border: var(--primitive-border-width-1) solid var(--semantic-button-tertiary-border);
+}
+
+.spark-btn-tertiary:not(.spark-btn-icon-only):hover {
+  color: var(--semantic-button-tertiary-content-on-surface-hover-click-on);
+}
+
+.spark-btn-tertiary:not(.spark-btn-icon-only):active {
+  background: var(--semantic-button-tertiary-bg-click-on);
+  color: var(--semantic-button-tertiary-content-on-surface-hover-click-on);
+}
+
+/* Tertiary icon button — default has border, hover/active lose it (per Figma) */
+.spark-btn-tertiary.spark-btn-icon-only {
+  background: var(--semantic-button-tertiary-icon-button-bg-default);
+  color: var(--semantic-button-tertiary-icon-button-content-on-surface);
+  border: var(--primitive-border-width-1) solid var(--semantic-button-tertiary-border);
+  gap: 0;
+}
+
+.spark-btn-tertiary.spark-btn-icon-only:hover {
+  background: var(--semantic-button-tertiary-icon-button-bg-hover);
+  border-color: transparent;
+}
+
+.spark-btn-tertiary.spark-btn-icon-only:active {
+  background: var(--semantic-button-tertiary-icon-button-bg-click-on);
+  border-color: transparent;
+}
+
+/* Tertiary icon button — danger (icon-only; no text danger tertiary in Figma) */
+.spark-btn-tertiary.spark-btn-icon-only.spark-btn-danger {
+  background: transparent;
+  color: var(--semantic-button-ghost-danger-content-on-surface);
+  border: none;
+}
+
+.spark-btn-tertiary.spark-btn-icon-only.spark-btn-danger:hover {
+  background: var(--semantic-button-ghost-danger-bg-hover);
+}
+
+.spark-btn-tertiary.spark-btn-icon-only.spark-btn-danger:active {
+  background: var(--semantic-button-ghost-danger-bg-hover);
+  border: var(--primitive-border-width-1) solid var(--semantic-button-ghost-danger-border);
+}
+
+/* Ghost text button — blue label, light blue hover/press fills */
+.spark-btn-ghost:not(.spark-btn-icon-only) {
+  background: transparent;
+  color: var(--semantic-button-ghost-content-on-surface-default);
+  border: none;
+}
+
+.spark-btn-ghost:not(.spark-btn-icon-only):hover {
+  background: var(--semantic-button-ghost-bg-hover);
+  color: var(--semantic-button-ghost-content-on-surface-default);
+}
+
+.spark-btn-ghost:not(.spark-btn-icon-only):active {
+  background: var(--semantic-button-ghost-bg-click-on);
+  color: var(--semantic-button-ghost-content-on-surface-default);
+  font-weight: var(--typography-font-weight-regular);
+}
+
+/* Ghost text button — danger */
+.spark-btn-ghost.spark-btn-danger:not(.spark-btn-icon-only) {
+  background: transparent;
+  color: var(--semantic-button-ghost-danger-content-on-surface);
+  border: none;
+}
+
+.spark-btn-ghost.spark-btn-danger:not(.spark-btn-icon-only):hover {
+  background: var(--semantic-button-ghost-danger-bg-hover);
+  color: var(--semantic-button-ghost-danger-content-on-surface);
+  border: none;
+}
+
+.spark-btn-ghost.spark-btn-danger:not(.spark-btn-icon-only):active {
+  background: var(--semantic-button-ghost-danger-bg-hover);
+  color: var(--semantic-button-ghost-danger-content-on-surface);
+  border: var(--primitive-border-width-1) solid var(--semantic-button-ghost-danger-content-on-surface);
+  font-weight: var(--typography-font-weight-regular);
+}
+
+/* Ghost icon button — neutral icon on subtle gray surfaces (not blue text ghost) */
+.spark-btn-ghost.spark-btn-icon-only {
+  background: transparent;
+  color: var(--semantic-button-tertiary-icon-button-content-on-surface);
+  border: none;
+}
+
+.spark-btn-ghost.spark-btn-icon-only:hover {
+  background: var(--semantic-button-tertiary-icon-button-bg-hover);
+  color: var(--semantic-button-tertiary-icon-button-content-on-surface);
+}
+
+.spark-btn-ghost.spark-btn-icon-only:active {
+  background: var(--semantic-button-tertiary-icon-button-bg-click-on);
+  color: var(--semantic-button-tertiary-icon-button-content-on-surface);
+}
+
+/* Link & text */
+.spark-btn-link {
+  background: transparent;
+  color: var(--semantic-button-link-content-on-surface-default);
+  text-decoration: underline;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: auto;
+  min-height: 0;
+  border-radius: var(--primitive-radius-sm);
+}
+
+.spark-btn-link:hover {
+  color: var(--semantic-button-link-content-on-surface-hover-focused-click-on);
+}
+
+.spark-btn-link.spark-btn-tiny {
+  font-size: var(--typography-font-size-detail);
+  font-weight: var(--typography-font-weight-regular);
+  line-height: var(--typography-line-height-detail);
+}
+
+.spark-btn-link.spark-btn-small,
+.spark-btn-link.spark-btn-medium,
+.spark-btn-link.spark-btn-large {
+  font-size: var(--typography-font-size-base);
+  font-weight: var(--typography-font-weight-medium);
+  line-height: var(--typography-line-height-base);
+}
+
+.spark-btn-text {
+  background: transparent;
+  color: var(--semantic-button-text-content-on-surface-default);
+  border: none;
+}
+
+.spark-btn-text.spark-btn-tiny {
+  height: 24px;
+  min-height: 24px;
+  font-size: var(--typography-font-size-detail);
+  line-height: var(--typography-line-height-detail);
+}
+
+.spark-btn-text:hover {
+  background: var(--semantic-button-text-bg-hover);
+  color: var(--semantic-button-text-content-on-surface-hover);
+}
+
+.spark-btn-text:active {
+  background: var(--semantic-button-text-bg-click-on);
+  color: var(--semantic-button-text-content-on-surface-click-on);
+}
+
+.spark-btn-text[disabled],
+.spark-btn-text.spark-btn-disabled {
+  background: transparent !important;
+  border: none !important;
+  color: var(--semantic-button-disabled-content-on-action) !important;
+}
+
+.spark-btn-icon-only .spark-btn-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spark-btn-icon-only .spark-btn-icon svg {
+  display: block;
+}
+
+.spark-btn-ghost:not(.spark-btn-icon-only)[disabled],
+.spark-btn-ghost:not(.spark-btn-icon-only).spark-btn-disabled {
+  background: transparent !important;
+  color: var(--semantic-button-disabled-content-on-action) !important;
+}
+
+/* Disabled */
+.spark-btn[disabled]:not(.spark-btn-text):not(.spark-btn-ghost),
+.spark-btn-disabled:not(.spark-btn-text):not(.spark-btn-ghost) {
+  background: var(--semantic-button-disabled-bg) !important;
+  color: var(--semantic-button-disabled-content-on-action) !important;
+  border-color: transparent !important;
+  cursor: not-allowed;
+  pointer-events: none;
+  filter: none !important;
+  font-weight: inherit;
+}
+
+.spark-btn-ghost.spark-btn-icon-only[disabled],
+.spark-btn-tertiary.spark-btn-icon-only.spark-btn-danger[disabled] {
+  background: transparent !important;
+}

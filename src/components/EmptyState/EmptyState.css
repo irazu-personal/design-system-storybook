@@ -1,0 +1,123 @@
+.spark-empty-state {
+  display: flex;
+  align-items: center;
+  font-family: var(--typography-font-family-platform);
+}
+
+.spark-empty-state-vertical {
+  flex-direction: column;
+  gap: var(--dimension-spacing-20);
+  text-align: center;
+}
+
+.spark-empty-state-horizontal {
+  flex-direction: row;
+  gap: var(--dimension-spacing-20);
+  text-align: left;
+}
+
+.spark-empty-state-illustration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border-radius: var(--dimension-border-radius-08);
+  flex-shrink: 0;
+}
+
+.spark-empty-state-illustration img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.spark-empty-state-illustration-medium {
+  width: 92px;
+  height: 70px;
+}
+
+.spark-empty-state-illustration-small {
+  width: 69px;
+  height: 53px;
+}
+
+.spark-empty-state-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dimension-spacing-04);
+}
+
+.spark-empty-state-vertical .spark-empty-state-content {
+  align-items: center;
+}
+
+.spark-empty-state-horizontal .spark-empty-state-content {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.spark-empty-state-medium .spark-empty-state-title {
+  font-size: var(--typography-font-size-base);
+  line-height: var(--typography-line-height-base);
+  font-weight: var(--typography-font-weight-semibold);
+}
+
+.spark-empty-state-medium .spark-empty-state-subtitle {
+  font-size: var(--typography-font-size-detail);
+  line-height: var(--typography-line-height-detail);
+}
+
+.spark-empty-state-small .spark-empty-state-title {
+  font-size: var(--typography-font-size-detail);
+  line-height: var(--typography-line-height-detail);
+  font-weight: var(--typography-font-weight-semibold);
+}
+
+.spark-empty-state-small .spark-empty-state-subtitle {
+  font-size: var(--typography-font-size-detail);
+  line-height: var(--typography-line-height-detail);
+}
+
+.spark-empty-state-title {
+  margin: 0;
+  color: var(--semantic-content-primary);
+}
+
+.spark-empty-state-subtitle {
+  margin: 0;
+  font-weight: var(--typography-font-weight-regular);
+  color: var(--semantic-content-tertiary);
+}
+
+.spark-empty-state-horizontal .spark-empty-state-cta {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.spark-empty-state-variants {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.spark-empty-state-variants-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2.5rem 4rem;
+  align-items: center;
+}
+
+.spark-empty-state-variant-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.spark-empty-state-variant-cell-vertical {
+  align-items: center;
+}
+
+.spark-empty-state-variant-cell-horizontal {
+  align-items: flex-start;
+}

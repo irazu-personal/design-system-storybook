@@ -1,0 +1,212 @@
+.spark-key-metrics {
+  display: inline-flex;
+  align-items: center;
+  gap: 30px;
+  padding: 0 var(--dimension-spacing-24);
+  background: var(--semantic-surface-white);
+  border: 1px solid var(--semantic-border-default);
+  border-radius: var(--dimension-border-radius-12);
+}
+
+.spark-key-metrics-amount-1 {
+  gap: 0;
+}
+
+.spark-key-metrics-amount-3 {
+  width: 486px;
+  max-width: 100%;
+}
+
+.spark-key-metrics-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dimension-spacing-12);
+  justify-content: center;
+  min-width: 100px;
+  padding: var(--dimension-spacing-08) 0;
+}
+
+.spark-key-metrics-label-row,
+.spark-key-metrics-value-row {
+  display: flex;
+  align-items: center;
+  gap: var(--dimension-spacing-08);
+  min-width: 0;
+}
+
+.spark-key-metrics-title-icon {
+  color: var(--semantic-content-secondary);
+}
+
+.spark-key-metrics-feedback-icon {
+  color: var(--semantic-feedback-warning-on-surface-elevated);
+}
+
+.spark-key-metrics-label {
+  margin: 0;
+  min-width: 0;
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-base);
+  font-weight: var(--typography-font-weight-regular);
+  line-height: var(--typography-line-height-base);
+  color: var(--semantic-content-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.spark-key-metrics-value {
+  margin: 0;
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-heading4);
+  font-weight: var(--typography-font-weight-semibold);
+  line-height: var(--typography-line-height-heading4);
+  color: var(--semantic-action-primary-on-surface-default);
+  white-space: nowrap;
+}
+
+.spark-key-metrics-divider {
+  align-self: stretch;
+}
+
+.spark-validation-card,
+.spark-workflow-card {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  min-width: min-content;
+  max-width: 100%;
+  padding: var(--dimension-spacing-12) var(--dimension-spacing-20);
+  background: var(--semantic-surface-white);
+  border-radius: var(--dimension-border-radius-12);
+}
+
+.spark-validation-card-border,
+.spark-workflow-card-border {
+  border: var(--dimension-line-width-subtle) solid var(--semantic-border-default);
+}
+
+.spark-validation-card-type-text-only {
+  width: 328px;
+}
+
+.spark-validation-card-type-tag {
+  width: 234px;
+}
+
+.spark-workflow-card {
+  width: 234px;
+}
+
+.spark-widget-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dimension-spacing-16);
+  width: 100%;
+}
+
+.spark-widget-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--dimension-spacing-08);
+  width: 100%;
+}
+
+.spark-widget-label {
+  margin: 0;
+  flex: 1 1 auto;
+  min-width: 0;
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-base);
+  font-weight: var(--typography-font-weight-regular);
+  line-height: var(--typography-line-height-base);
+  color: var(--semantic-content-secondary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.spark-widget-footer-label {
+  color: var(--semantic-action-primary-on-surface-subtle);
+}
+
+.spark-widget-value-lg {
+  margin: 0;
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-heading5);
+  font-weight: var(--typography-font-weight-semibold);
+  line-height: var(--typography-line-height-heading5);
+  color: var(--semantic-action-primary-on-surface-default);
+  white-space: nowrap;
+}
+
+.spark-widget-value-md {
+  margin: 0;
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-lead);
+  font-weight: var(--typography-font-weight-semibold);
+  line-height: var(--typography-line-height-lead);
+  color: var(--semantic-action-primary-on-surface-default);
+  white-space: nowrap;
+}
+
+.spark-workflow-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.spark-workflow-card-title {
+  margin: 0;
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-detail);
+  font-weight: var(--typography-font-weight-regular);
+  line-height: var(--typography-line-height-detail);
+  color: var(--semantic-content-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.spark-workflow-card-footer {
+  display: flex;
+  align-items: center;
+  gap: var(--dimension-spacing-16);
+  width: 100%;
+}
+
+.spark-workflow-card-metric {
+  margin: 0;
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-heading2);
+  font-weight: var(--typography-font-weight-semibold);
+  line-height: var(--typography-line-height-heading2);
+  color: var(--semantic-action-primary-on-surface-default);
+  white-space: nowrap;
+}
+
+.spark-workflow-card-progress-wrap {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--dimension-spacing-04);
+  min-width: 0;
+}
+
+.spark-workflow-card-progress-label {
+  margin: 0;
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-detail);
+  font-weight: var(--typography-font-weight-regular);
+  line-height: var(--typography-line-height-detail);
+  color: var(--semantic-action-primary-on-surface-subtle);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.spark-workflow-card .spark-progress-bar {
+  max-width: none;
+}

@@ -1,0 +1,277 @@
+.spark-slider-handle {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* Fixed layout footprint — ring sizes vary inside without squashing. */
+  width: 16px;
+  height: 16px;
+}
+
+.spark-slider-handle-ring {
+  box-sizing: border-box;
+  border-radius: 50%;
+  background: var(--semantic-action-secondary-bg-default);
+  border: 2px solid var(--semantic-border-active);
+  flex-shrink: 0;
+}
+
+.spark-slider-handle-size-default .spark-slider-handle-ring,
+.spark-slider-handle-size-disabled .spark-slider-handle-ring {
+  width: 14px;
+  height: 14px;
+}
+
+.spark-slider-handle-size-hover .spark-slider-handle-ring {
+  width: 12px;
+  height: 12px;
+}
+
+.spark-slider-handle-size-click-on .spark-slider-handle-ring {
+  width: 16px;
+  height: 16px;
+}
+
+.spark-slider-handle-disabled .spark-slider-handle-ring {
+  border-color: var(--semantic-action-disabled-content-on-surface);
+}
+
+.spark-slider-handle-tooltip-wrap {
+  position: absolute;
+  bottom: calc(100% + var(--dimension-spacing-04));
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+}
+
+/* Tooltip above handle — content hugs text; tip points down from bottom edge. */
+.spark-slider-handle-tooltip-wrap .spark-slider-handle-tooltip {
+  display: inline-flex;
+  width: max-content;
+}
+
+.spark-slider-handle-tooltip-wrap .spark-tooltip-text {
+  white-space: nowrap;
+}
+
+.spark-slider-handle-matrix-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  min-height: 16px;
+  flex-shrink: 0;
+}
+
+.spark-slider-handle-matrix-cell-has-tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  min-height: 16px;
+  flex-shrink: 0;
+  padding-top: 52px;
+}
+
+.spark-slider {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: var(--dimension-spacing-16);
+  width: 100%;
+  max-width: 400px;
+  font-family: var(--typography-font-family-platform);
+}
+
+.spark-slider-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--dimension-spacing-12);
+  min-width: 0;
+  padding-top: var(--dimension-spacing-08);
+}
+
+.spark-slider-body-no-values {
+  gap: 0;
+  padding-top: 0;
+  padding-bottom: var(--dimension-spacing-12);
+}
+
+.spark-slider-control {
+  position: relative;
+  width: 100%;
+  height: 16px;
+}
+
+.spark-slider-rail {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 6px;
+  border-radius: var(--dimension-border-radius-00);
+  background: var(--semantic-surface-subtle);
+}
+
+.spark-slider-rail-range {
+  left: 4px;
+  right: 4px;
+  background: var(--semantic-border-default);
+}
+
+.spark-slider-disabled .spark-slider-rail-range {
+  background: var(--semantic-surface-subtle);
+}
+
+.spark-slider-track {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 6px;
+  border-radius: var(--dimension-border-radius-00);
+  background: var(--semantic-border-active);
+}
+
+.spark-slider-disabled .spark-slider-track,
+.spark-slider-disabled .spark-slider-range-active {
+  background: var(--semantic-action-disabled-content-on-surface);
+}
+
+.spark-slider-handle-pos {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.spark-slider-range-active {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 6px;
+  border-radius: var(--dimension-border-radius-00);
+  background: var(--semantic-border-active);
+}
+
+.spark-slider-values {
+  display: flex;
+  align-items: center;
+  gap: var(--dimension-spacing-16);
+  width: 100%;
+}
+
+.spark-slider-values-label {
+  flex-shrink: 0;
+  width: 15px;
+  margin: 0;
+  font-size: var(--typography-font-size-base);
+  line-height: var(--typography-line-height-base);
+  font-weight: var(--typography-font-weight-regular);
+  color: var(--semantic-content-tertiary);
+  text-align: center;
+}
+
+.spark-slider-values-label-end {
+  width: auto;
+  white-space: nowrap;
+}
+
+.spark-slider-ticks {
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 10px;
+  min-width: 0;
+}
+
+.spark-slider-tick {
+  width: 1px;
+  height: 4px;
+  background: var(--semantic-border-default);
+  flex-shrink: 0;
+}
+
+.spark-slider-input-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dimension-spacing-04);
+  width: 48px;
+  flex-shrink: 0;
+  padding-bottom: var(--dimension-spacing-24);
+}
+
+.spark-slider-input-wrap-no-values {
+  padding-bottom: 0;
+}
+
+.spark-slider-input-label {
+  margin: 0;
+  font-size: var(--typography-font-size-base);
+  line-height: var(--typography-line-height-base);
+  font-weight: var(--typography-font-weight-regular);
+  color: var(--semantic-action-primary-on-surface-default);
+  white-space: nowrap;
+}
+
+.spark-slider-disabled .spark-slider-input-label {
+  color: var(--semantic-action-disabled-content-on-surface);
+}
+
+.spark-slider-input-field {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  height: 28px;
+  padding: var(--dimension-spacing-04) var(--dimension-spacing-12);
+  border: var(--dimension-line-width-subtle) solid var(--semantic-action-primary-border-default);
+  border-radius: var(--dimension-border-radius-06);
+  background: var(--semantic-action-secondary-bg-default);
+  font-size: var(--typography-font-size-base);
+  line-height: var(--typography-line-height-base);
+  color: var(--semantic-action-primary-on-surface-subtle);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.spark-slider-disabled .spark-slider-input-field {
+  color: var(--semantic-action-disabled-content-on-surface);
+  border-color: var(--semantic-action-primary-border-default);
+}
+
+.spark-slider-range-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--dimension-spacing-12);
+  min-width: 0;
+  padding-top: var(--dimension-spacing-24);
+}
+
+.spark-slider-range-body-no-values {
+  padding-top: 0;
+}
+
+.spark-slider-range-wrap {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--dimension-spacing-16);
+  width: 100%;
+  max-width: 401px;
+  font-family: var(--typography-font-family-platform);
+}
+
+.spark-slider-range-wrap .spark-slider-control {
+  margin-top: var(--dimension-spacing-08);
+}
+
+.spark-slider-range-body-no-values .spark-slider-control {
+  margin-top: 0;
+}

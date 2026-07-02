@@ -1,0 +1,164 @@
+.spark-breadcrumb {
+  display: inline-block;
+}
+
+.spark-breadcrumb-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  height: 24px;
+  gap: 0;
+}
+
+.spark-breadcrumb-item-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+/* Separator — slash or chevron-right icon */
+.spark-breadcrumb-separator {
+  user-select: none;
+}
+
+.spark-breadcrumb-separator-slash {
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-base);
+  line-height: var(--typography-line-height-base);
+  font-weight: var(--typography-font-weight-regular);
+  padding: 0 var(--dimension-spacing-08);
+}
+
+.spark-breadcrumb-separator-chevron {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  color: inherit;
+}
+
+.spark-breadcrumb-separator-default {
+  color: var(--semantic-content-secondary);
+}
+
+.spark-breadcrumb-separator-primary {
+  color: var(--semantic-content-primary);
+}
+
+.spark-breadcrumb-separator-brand {
+  color: var(--semantic-content-brand);
+}
+
+/* Base item styles */
+.spark-breadcrumb-item {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--dimension-spacing-04);
+  height: 24px;
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-base);
+  line-height: var(--typography-line-height-base);
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+/* Icon wrapper */
+.spark-breadcrumb-icon {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  height: 16px;
+}
+
+/* `.Icon-Chevron` — popover trigger on breadcrumb items */
+.spark-breadcrumb-chevron {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.spark-breadcrumb-chevron-default {
+  color: var(--semantic-content-secondary);
+}
+
+.spark-breadcrumb-chevron-active {
+  color: var(--semantic-content-primary);
+}
+
+.spark-breadcrumb-item-link-steps .spark-breadcrumb-chevron-default {
+  color: var(--semantic-content-tertiary);
+}
+
+.spark-breadcrumb-item-link-steps:hover .spark-breadcrumb-chevron-default {
+  color: var(--semantic-content-secondary);
+}
+
+/* Link item (non-last) — Navigation type; color on item so icons inherit via currentColor */
+.spark-breadcrumb-item-link-navigation {
+  color: var(--semantic-content-secondary);
+  font-weight: var(--typography-font-weight-regular);
+  cursor: pointer;
+}
+
+.spark-breadcrumb-item-link-navigation:hover {
+  color: var(--semantic-content-primary);
+  font-weight: var(--typography-font-weight-semibold);
+}
+
+.spark-breadcrumb-item-link-navigation:hover .spark-breadcrumb-chevron-default {
+  color: var(--semantic-content-primary);
+}
+
+/* Link item — Steps type */
+.spark-breadcrumb-item-link-steps {
+  color: var(--semantic-content-tertiary);
+}
+
+.spark-breadcrumb-item-link-steps:hover {
+  color: var(--semantic-content-secondary);
+  font-weight: var(--typography-font-weight-regular);
+}
+
+/* Storybook static hover previews */
+.spark-breadcrumb-item-link-navigation-hover-demo {
+  color: var(--semantic-content-primary);
+  font-weight: var(--typography-font-weight-semibold);
+}
+
+.spark-breadcrumb-item-link-navigation-hover-demo .spark-breadcrumb-chevron-default {
+  color: var(--semantic-content-primary);
+}
+
+.spark-breadcrumb-item-link-steps-hover-demo {
+  color: var(--semantic-content-secondary);
+  font-weight: var(--typography-font-weight-regular);
+}
+
+.spark-breadcrumb-icon,
+.spark-breadcrumb-chevron {
+  color: inherit;
+}
+
+.spark-breadcrumb-item-link-navigation:focus-visible,
+.spark-breadcrumb-item-link-steps:focus-visible {
+  outline: none;
+  box-shadow: var(--semantic-shadow-focus-ring-neutral);
+  border-radius: var(--dimension-border-radius-04);
+}
+
+/* Active/current-page item (last) — Default type */
+.spark-breadcrumb-item-active {
+  color: var(--semantic-content-primary);
+  font-weight: var(--typography-font-weight-medium);
+  cursor: default;
+}
+
+/* Active — Steps type current page */
+.spark-breadcrumb-item-active-steps {
+  color: var(--semantic-action-primary-on-surface-active);
+  font-weight: var(--typography-font-weight-medium);
+  cursor: default;
+}

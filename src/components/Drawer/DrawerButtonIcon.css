@@ -1,0 +1,47 @@
+.spark-drawer-button-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  margin: 0;
+  border: var(--dimension-line-width-subtle) solid var(--semantic-border-tertiary);
+  border-radius: var(--dimension-border-radius-00);
+  background: var(--semantic-surface-white);
+  box-shadow: var(--shadow-drawer-icon-button);
+  color: var(--semantic-content-primary);
+  cursor: pointer;
+}
+
+.spark-drawer-button-icon-width {
+  height: 48px;
+}
+
+.spark-drawer-button-icon-resize {
+  cursor: ew-resize;
+  touch-action: none;
+}
+
+.spark-drawer-button-icon-hover {
+  background: var(--semantic-button-tertiary-icon-button-bg-hover);
+}
+
+.spark-drawer-button-icon-click-on {
+  background: var(--semantic-button-tertiary-icon-button-bg-click-on);
+}
+
+.spark-drawer-button-icon-disabled,
+.spark-drawer-button-icon:disabled {
+  background: var(--semantic-button-disabled-bg);
+  border-color: var(--semantic-action-disabled-border);
+  color: var(--semantic-action-disabled-content-on-surface);
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.spark-drawer-button-icon:focus-visible {
+  outline: 2px solid var(--semantic-border-focus);
+  outline-offset: 2px;
+}

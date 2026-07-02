@@ -1,0 +1,90 @@
+.spark-tag-colored {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--dimension-spacing-04);
+  height: 20px;
+  padding: 0 var(--dimension-spacing-08);
+  border-radius: var(--dimension-border-radius-04);
+  border: var(--dimension-line-width-subtle) solid transparent;
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-detail);
+  line-height: var(--typography-line-height-detail);
+  white-space: nowrap;
+}
+
+.spark-tag-colored-icon,
+.spark-tag-colored-label {
+  color: inherit;
+}
+
+.spark-tag-colored-pink {
+  background: var(--primitive-alternative-subtle-01);
+  color: var(--primitive-alternative-bold-01);
+}
+
+.spark-tag-colored-burgundy {
+  background: var(--primitive-alternative-subtle-02);
+  color: var(--primitive-alternative-bold-02);
+}
+
+.spark-tag-colored-purple {
+  background: var(--primitive-alternative-subtle-03);
+  color: var(--primitive-alternative-bold-03);
+}
+
+.spark-tag-colored-blue {
+  background: var(--primitive-alternative-subtle-04);
+  color: var(--primitive-alternative-bold-04);
+}
+
+.spark-tag-colored-cyan {
+  background: var(--primitive-alternative-subtle-05);
+  color: var(--primitive-alternative-bold-05);
+}
+
+.spark-tag-colored-lime {
+  background: var(--primitive-alternative-subtle-06);
+  color: var(--primitive-alternative-bold-06);
+}
+
+.spark-tag-colored-volcano {
+  background: var(--primitive-alternative-subtle-07);
+  color: var(--primitive-alternative-bold-07);
+}
+
+.spark-tag-colored-peach {
+  background: var(--primitive-alternative-subtle-08);
+  color: var(--primitive-alternative-bold-08);
+}
+
+.spark-tag-colored-yellow {
+  background: var(--primitive-alternative-subtle-09);
+  color: var(--primitive-alternative-bold-09);
+}
+
+.spark-tag-colored-disabled {
+  background: var(--semantic-action-disabled-bg-secondary);
+  color: var(--semantic-content-secondary);
+}
+
+.spark-tag-colored-delete {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  line-height: 0;
+}
+
+.spark-tag-colored-delete:disabled {
+  cursor: not-allowed;
+}
+
+.spark-tag-colored-disabled .spark-tag-colored-delete {
+  pointer-events: none;
+}

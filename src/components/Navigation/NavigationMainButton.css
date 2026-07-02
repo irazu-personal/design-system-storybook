@@ -1,0 +1,55 @@
+.spark-navigation-main-button-wrap {
+  position: relative;
+  display: inline-flex;
+  flex-shrink: 0;
+}
+
+.spark-navigation-main-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: var(--dimension-line-width-subtle) solid transparent;
+  border-radius: var(--dimension-border-radius-08);
+  background: transparent;
+  color: var(--semantic-button-notification-content-on-surface);
+  cursor: pointer;
+  transition: var(--semantic-motion-button-transition);
+}
+
+.spark-navigation-main-button-content {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+}
+
+.spark-navigation-main-button:hover:not(:disabled) {
+  background: var(--primitive-deep-blue-600);
+}
+
+.spark-navigation-main-button:active:not(:disabled) {
+  background: var(--primitive-deep-blue-600);
+  border-width: var(--dimension-line-width-strong);
+  border-color: var(--semantic-button-notification-border);
+}
+
+.spark-navigation-main-button:focus-visible {
+  outline: none;
+  box-shadow: var(--semantic-shadow-focus-ring-neutral);
+}
+
+.spark-navigation-main-button:disabled {
+  cursor: not-allowed;
+  color: var(--semantic-button-notification-content-on-surface-disabled);
+}
+
+.spark-navigation-main-button-wrap .spark-navigation-badge {
+  position: absolute;
+  top: -2px;
+  left: 24px;
+  transform: none;
+}

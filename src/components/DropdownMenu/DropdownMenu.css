@@ -1,0 +1,33 @@
+.spark-dropdown-menu {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 256px;
+  max-width: 100%;
+  font-family: var(--typography-font-family-platform);
+}
+
+.spark-dropdown-menu-overlay {
+  position: relative;
+}
+
+.spark-dropdown-menu-panel {
+  margin-top: var(--dimension-spacing-04);
+}
+
+.spark-dropdown-menu-overlay .spark-dropdown-menu-panel {
+  position: absolute;
+  top: calc(100% + var(--dimension-spacing-04));
+  left: 0;
+  right: 0;
+  z-index: 1;
+  margin-top: 0;
+}
+
+.spark-dropdown-menu-panel .spark-dropdown,
+.spark-auto-complete-panel .spark-dropdown {
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}

@@ -1,0 +1,16 @@
+.spark-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  pointer-events: auto;
+}
+
+.spark-overlay-scrim {
+  flex: 1 1 auto;
+  width: 100%;
+  min-height: 0;
+  background: var(--primitive-neutral-700);
+  opacity: 0.3;
+}

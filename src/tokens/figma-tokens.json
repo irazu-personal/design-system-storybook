@@ -1,0 +1,3385 @@
+{
+  "Colors/Value": {
+    "primitive": {
+      "blue": {
+        "100": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#f9fcfe",
+          "$type": "color"
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#f6f9fe",
+          "$type": "color"
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#ecf4fe",
+          "$type": "color"
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#cfe2fc",
+          "$type": "color"
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#008ef5",
+          "$type": "color"
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#376bbd",
+          "$type": "color"
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#2d579a",
+          "$type": "color"
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#214173",
+          "$type": "color"
+        }
+      },
+      "deep-blue": {
+        "100": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#f3f5f9",
+          "$type": "color"
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#dbddf8",
+          "$type": "color"
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#b9bdf1",
+          "$type": "color"
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#8b90d7",
+          "$type": "color"
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#33377b",
+          "$type": "color"
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#373b65",
+          "$type": "color"
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#222649",
+          "$type": "color"
+        }
+      },
+      "neutral": {
+        "50": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#ffffff",
+          "$type": "color"
+        },
+        "100": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#fcfcfd",
+          "$type": "color"
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#f6f7f9",
+          "$type": "color"
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#e2e2e9",
+          "$type": "color"
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#ceceda",
+          "$type": "color"
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#a7a9be",
+          "$type": "color"
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#8c8ea1",
+          "$type": "color"
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#555768",
+          "$type": "color"
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#1a1b23",
+          "$type": "color"
+        }
+      },
+      "orange": {
+        "100": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#fffcfa",
+          "$type": "color"
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#fdd6b9",
+          "$type": "color"
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#fcb887",
+          "$type": "color"
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#fb954b",
+          "$type": "color"
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#f96b05",
+          "$type": "color"
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#d75c05",
+          "$type": "color"
+        }
+      },
+      "green": {
+        "100": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#fbfefc",
+          "$type": "color"
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#ceeedc",
+          "$type": "color"
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#b1e2c8",
+          "$type": "color"
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#69c497",
+          "$type": "color"
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#42a976",
+          "$type": "color"
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#32815a",
+          "$type": "color"
+        }
+      },
+      "red": {
+        "100": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#fff6f5",
+          "$type": "color"
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#ffdad6",
+          "$type": "color"
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#ffa8a3",
+          "$type": "color"
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#ff5552",
+          "$type": "color"
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#ff383a",
+          "$type": "color"
+        },
+        "600": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#ef0b17",
+          "$type": "color"
+        },
+        "700": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#c0121f",
+          "$type": "color"
+        },
+        "800": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#8e0616",
+          "$type": "color"
+        }
+      },
+      "alternative": {
+        "subtle": {
+          "01": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": true
+            },
+            "$value": "#fff0f6",
+            "$type": "color",
+            "$description": "Use as the background of accent-01 colored tags."
+          },
+          "02": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": true
+            },
+            "$value": "#fdecfc",
+            "$type": "color",
+            "$description": "Use as the background of accent-02 colored tags."
+          },
+          "03": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": true
+            },
+            "$value": "#f9f0ff",
+            "$type": "color",
+            "$description": "Use as the background of accent-03 colored tags."
+          },
+          "04": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": true
+            },
+            "$value": "{primitive.blue.200}",
+            "$type": "color",
+            "$description": "Use as the background of accent-04 colored tags."
+          },
+          "05": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": true
+            },
+            "$value": "#e6fffb",
+            "$type": "color",
+            "$description": "Use as the background of accent-05 colored tags."
+          },
+          "06": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": true
+            },
+            "$value": "#fcffe6",
+            "$type": "color",
+            "$description": "Use as the background of accent-06 colored tags."
+          },
+          "07": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": true
+            },
+            "$value": "#fff2e8",
+            "$type": "color",
+            "$description": "Use as the background of accent-07 colored tags."
+          },
+          "08": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": true
+            },
+            "$value": "#ffeed2",
+            "$type": "color",
+            "$description": "Use as the background of accent-08 colored tags."
+          },
+          "09": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "com.figma.hiddenFromPublishing": true
+            },
+            "$value": "#fff9c2",
+            "$type": "color",
+            "$description": "Use as the background of accent-09 colored tags."
+          }
+        },
+        "bold": {
+          "01": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "TEXT_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": true
+            },
+            "$value": "#c81376",
+            "$type": "color",
+            "$description": "Use as the text color inside accent-01 colored tags. Pair with tag/bg/accent-01."
+          },
+          "02": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "TEXT_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": true
+            },
+            "$value": "#a6119a",
+            "$type": "color",
+            "$description": "Use as the text color inside accent-02 colored tags. Pair with tag/bg/accent-02."
+          },
+          "03": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "TEXT_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": true
+            },
+            "$value": "#6228b4",
+            "$type": "color",
+            "$description": "Use as the text color inside accent-03 colored tags. Pair with tag/bg/accent-03."
+          },
+          "04": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "TEXT_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": true
+            },
+            "$value": "#163ee4",
+            "$type": "color",
+            "$description": "Use as the text color inside accent-04 colored tags. Pair with tag/bg/accent-04."
+          },
+          "05": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "TEXT_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": true
+            },
+            "$value": "#0c7d7d",
+            "$type": "color",
+            "$description": "Use as the text color inside accent-05 colored tags. Pair with tag/bg/accent-05."
+          },
+          "06": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "TEXT_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": true
+            },
+            "$value": "#5b7b0a",
+            "$type": "color",
+            "$description": "Use as the text color inside accent-06 colored tags. Pair with tag/bg/accent-06."
+          },
+          "07": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "TEXT_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": true
+            },
+            "$value": "#d23805",
+            "$type": "color",
+            "$description": "Use as the text color inside accent-07 colored tags. Pair with tag/bg/accent-07."
+          },
+          "08": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "TEXT_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": true
+            },
+            "$value": "#a5441f",
+            "$type": "color",
+            "$description": "Use as the text color inside accent-08 colored tags. Pair with tag/bg/accent-08."
+          },
+          "09": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "SHAPE_FILL",
+                "TEXT_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": true
+            },
+            "$value": "#896015",
+            "$type": "color",
+            "$description": "Use as the text color inside accent-09 colored tags. Pair with tag/bg/accent-09."
+          }
+        }
+      },
+      "yellow": {
+        "100": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#fef9e6",
+          "$type": "color"
+        },
+        "200": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#fef3cd",
+          "$type": "color"
+        },
+        "300": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#fdedb5",
+          "$type": "color"
+        },
+        "400": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#fde79c",
+          "$type": "color"
+        },
+        "500": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "#fce183",
+          "$type": "color"
+        }
+      }
+    },
+    "semantic": {
+      "surface": {
+        "canvas": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_FILLS"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "{primitive.deep-blue.100}",
+          "$type": "color",
+          "$description": "Use for the main application background \u2014 the lowest visual layer beneath all other surfaces."
+        },
+        "inverse": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_FILLS"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "{primitive.deep-blue.700}",
+          "$type": "color",
+          "$description": "Use as the background for components displayed in inverse (dark) mode, such as navigation bars, notifications, popover tips, and step card badges."
+        },
+        "white": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_FILLS"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "{primitive.neutral.50}",
+          "$type": "color",
+          "$description": "Use as the elevated container surface for cards, modals, drawers, dropdowns, tables, and other floating or panel-style components."
+        },
+        "brand": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_FILLS"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "{primitive.blue.500}",
+          "$type": "color",
+          "$description": "Use as the background fill for brand-colored UI elements such as progress bars and brand tags."
+        },
+        "tooltip": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_FILLS"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "{primitive.neutral.800}",
+          "$type": "color",
+          "$description": "Use exclusively for tooltip container backgrounds."
+        },
+        "subtle": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_FILLS"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "{primitive.neutral.200}",
+          "$type": "color",
+          "$description": "Use for subtle background fills in loading states and secondary containers such as avatars, cards, progress bar tracks, slider rails, and table cells."
+        },
+        "muted": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_FILLS"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "{primitive.neutral.100}",
+          "$type": "color",
+          "$description": "Use for low-contrast background fills that de-emphasize sections, such as file upload zones, table header cells, and upload areas."
+        },
+        "sunken": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "ALL_FILLS"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "{primitive.neutral.400}",
+          "$type": "color",
+          "$description": "Use for recessed UI elements that appear lower in the visual hierarchy, such as scroll-bar tracks."
+        }
+      },
+      "border": {
+        "dark": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "semantic/border/dark"
+            }
+          },
+          "$value": "{primitive.blue.700}",
+          "$type": "color",
+          "$description": "Use for the strongest border emphasis in scenarios that require maximum contrast, such as file upload drag-and-drop zones."
+        },
+        "default": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "{primitive.neutral.300}",
+          "$type": "color",
+          "$description": "Use for standard border outlines on interactive and structural components such as buttons, cards, drawers, dropdowns, tables, and sliders."
+        },
+        "strong": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "{primitive.neutral.500}",
+          "$type": "color",
+          "$description": "Use for high-emphasis borders that require stronger visual weight, such as file upload areas, loaders, and progress bars."
+        },
+        "active": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "{primitive.blue.500}",
+          "$type": "color",
+          "$description": "Use to indicate the active, selected, or focused state of interactive elements such as sliders, tabs, file upload zones, and progress indicators."
+        },
+        "inverse": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "{primitive.neutral.50}",
+          "$type": "color",
+          "$description": "Use for borders on components displayed against dark or colored backgrounds, such as badges, icon buttons, and dividers."
+        }
+      },
+      "content": {
+        "primary": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "{primitive.neutral.800}",
+          "$type": "color",
+          "$description": "Use for the highest-priority text and icons across the UI. Apply to headings, labels, and primary content in accordions, breadcrumbs, modals, tables, and search."
+        },
+        "secondary": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "{primitive.neutral.700}",
+          "$type": "color",
+          "$description": "Use for supporting text and icons that accompany primary content, such as subtitles, placeholders, and helper icons in dropdowns, inputs, cards, and tables."
+        },
+        "brand": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "{primitive.blue.500}",
+          "$type": "color",
+          "$description": "Use for brand-colored icons and text in components that reinforce brand identity, such as active states in pagination, segmented controls, and tabs."
+        },
+        "inverse": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "{primitive.neutral.50}",
+          "$type": "color",
+          "$description": "Use for text and icons that appear on dark or inverted surfaces, such as badges, buttons on dark backgrounds, navigation, notifications, and tooltips."
+        },
+        "tertiary": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "SHAPE_FILL",
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "{primitive.neutral.600}",
+          "$type": "color",
+          "$description": "Use for the lowest-emphasis text and icons, such as muted labels and helper text in sliders and table toolbar content. Also known as: gray"
+        }
+      },
+      "button": {
+        "primary": {
+          "bg-default": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.blue.500}",
+            "$type": "color",
+            "$description": "Use as the default background of the primary button."
+          },
+          "bg-hover-click-on": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.blue.600}",
+            "$type": "color",
+            "$description": "Use as the background of the primary button in both hover and pressed states."
+          },
+          "danger": {
+            "bg-default": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.red.600}",
+              "$type": "color",
+              "$description": "Use as the default background of the destructive primary button."
+            },
+            "bg-hover": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.red.700}",
+              "$type": "color",
+              "$description": "Use as the background of the destructive primary button in the hover state."
+            },
+            "content-on-surface": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.neutral.50}",
+              "$type": "color",
+              "$description": "Use as the text and icon color inside the destructive primary button."
+            },
+            "bg-click-on": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.red.800}",
+              "$type": "color",
+              "$description": "Use as the background of the destructive primary button in the pressed state."
+            }
+          },
+          "content-on-surface": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.50}",
+            "$type": "color",
+            "$description": "Use as the text and icon color inside the primary button."
+          }
+        },
+        "secondary": {
+          "bg-default": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.50}",
+            "$type": "color",
+            "$description": "Use as the default background of the secondary button."
+          },
+          "bg-hover": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.blue.300}",
+            "$type": "color",
+            "$description": "Use as the background of the secondary button in the hover state."
+          },
+          "border": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.blue.500}",
+            "$type": "color",
+            "$description": "Use as the default border of the secondary button."
+          },
+          "danger": {
+            "bg-default": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.neutral.50}",
+              "$type": "color",
+              "$description": "Use as the default background of the destructive secondary button."
+            },
+            "bg-hover": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.red.100}",
+              "$type": "color",
+              "$description": "Use as the background of the destructive secondary button in the hover state."
+            },
+            "border": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.red.700}",
+              "$type": "color",
+              "$description": "Use as the border of the destructive secondary button."
+            },
+            "content-on-surface": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.red.600}",
+              "$type": "color",
+              "$description": "Use as the text and icon color inside the destructive secondary button."
+            },
+            "bg-click-on": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.neutral.50}",
+              "$type": "color",
+              "$description": "Use as the background of the destructive secondary button in the pressed state."
+            }
+          },
+          "content-on-surface": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.blue.500}",
+            "$type": "color",
+            "$description": "Use as the text and icon color inside the secondary button."
+          },
+          "bg-click-on": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.blue.400}",
+            "$type": "color",
+            "$description": "Use as the background of the secondary button in the pressed state."
+          },
+          "border-hover": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.blue.500}",
+            "$type": "color",
+            "$description": "Use as the border of the secondary button in the hover state."
+          }
+        },
+        "text": {
+          "content-on-surface-default": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.800}",
+            "$type": "color",
+            "$description": "Use as the default text and icon color inside the text button."
+          },
+          "content-on-surface-click-on": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.800}",
+            "$type": "color",
+            "$description": "Use as the text and icon color inside the text button in the pressed state."
+          },
+          "bg-click-on": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.blue.300}",
+            "$type": "color",
+            "$description": "Use as the background of the text button in the pressed state."
+          },
+          "bg-hover": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.blue.200}",
+            "$type": "color",
+            "$description": "Use as the background of the text button in the hover state."
+          },
+          "content-on-surface-hover": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.700}",
+            "$type": "color",
+            "$description": "Use as the text and icon color inside the text button in the hover state."
+          }
+        },
+        "border": {
+          "focus": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.blue.400}",
+            "$type": "color",
+            "$description": "Use as the focus ring color applied to all button variants in the focused state."
+          }
+        },
+        "disabled": {
+          "bg": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.200}",
+            "$type": "color",
+            "$description": "Use as the background of any disabled button regardless of variant."
+          },
+          "content-on-action": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.600}",
+            "$type": "color",
+            "$description": "Use as the text and icon color of any disabled button regardless of variant."
+          }
+        },
+        "ghost": {
+          "danger": {
+            "bg-surface": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.red.500}",
+              "$type": "color",
+              "$description": "Use as the surface background of the destructive ghost button."
+            },
+            "bg-hover": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.red.100}",
+              "$type": "color",
+              "$description": "Use as the background of the destructive ghost button in the hover state."
+            },
+            "border": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.red.700}",
+              "$type": "color",
+              "$description": "Use as the border of the destructive ghost button."
+            },
+            "content-on-surface": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.red.600}",
+              "$type": "color",
+              "$description": "Use as the text and icon color inside the destructive ghost button."
+            }
+          },
+          "content-on-surface-default": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.blue.500}",
+            "$type": "color",
+            "$description": "Use as the default text and icon color inside the ghost button."
+          },
+          "bg-hover": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.blue.300}",
+            "$type": "color",
+            "$description": "Use as the background of the ghost button in the hover state."
+          },
+          "bg-click-on": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.blue.400}",
+            "$type": "color",
+            "$description": "Use as the background of the ghost button in the pressed state."
+          }
+        },
+        "link": {
+          "content-on-surface-hover-focused-click-on": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.blue.600}",
+            "$type": "color",
+            "$description": "Use as the text color of the link button in hover, focused, and pressed states."
+          },
+          "content-on-surface-default": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.blue.500}",
+            "$type": "color",
+            "$description": "Use as the default text color of the link button."
+          }
+        },
+        "tertiary": {
+          "bg-default": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.50}",
+            "$type": "color",
+            "$description": "Use as the default background of the tertiary button."
+          },
+          "bg-click-on": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.blue.300}",
+            "$type": "color",
+            "$description": "Use as the background of the tertiary button in the pressed state."
+          },
+          "border": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.300}",
+            "$type": "color",
+            "$description": "Use as the border of the tertiary button."
+          },
+          "content-on-surface": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.800}",
+            "$type": "color",
+            "$description": "Use as the default text and icon color inside the tertiary button."
+          },
+          "content-on-surface-hover-click-on": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.blue.500}",
+            "$type": "color",
+            "$description": "Use as the text and icon color inside the tertiary button in hover and pressed states."
+          }
+        },
+        "tertiary-icon-button": {
+          "bg-default": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.50}",
+            "$type": "color",
+            "$description": "Use as the default background of the icon-only tertiary button."
+          },
+          "bg-click-on": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.400}",
+            "$type": "color",
+            "$description": "Use as the background of the icon-only tertiary button in the pressed state."
+          },
+          "content-on-surface": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.800}",
+            "$type": "color",
+            "$description": "Use as the icon color inside the icon-only tertiary button."
+          },
+          "bg-hover": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.200}",
+            "$type": "color",
+            "$description": "Use as the background of the icon-only tertiary button in the hover state."
+          }
+        },
+        "notification": {
+          "bg-hover": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.deep-blue.600}",
+            "$type": "color",
+            "$description": "Use as the background of the notification button in the hover state."
+          },
+          "content-on-surface": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.50}",
+            "$type": "color",
+            "$description": "Use as the text and icon color inside the notification button."
+          },
+          "content-on-surface-disabled": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.500}",
+            "$type": "color",
+            "$description": "Use as the text and icon color inside the notification button when disabled."
+          },
+          "border": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.50}",
+            "$type": "color",
+            "$description": "Use as the border of the notification button."
+          }
+        }
+      },
+      "feedback": {
+        "critical": {
+          "surface": {
+            "subtle": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.red.100}",
+              "$type": "color",
+              "$description": "Use as a light-tinted background for low-emphasis critical feedback areas."
+            },
+            "elevated": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.red.400}",
+              "$type": "color",
+              "$description": "Use as the prominent background for high-emphasis critical feedback components."
+            },
+            "muted": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.red.200}",
+              "$type": "color",
+              "$description": "Use as a mid-tinted background for medium-emphasis critical feedback areas."
+            }
+          },
+          "on-surface": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.red.600}",
+            "$type": "color",
+            "$description": "Use as the text and icon color for critical error messages and alerts."
+          },
+          "border": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.red.600}",
+            "$type": "color",
+            "$description": "Use as the border color for critical feedback components such as error alerts and banners."
+          }
+        },
+        "success": {
+          "surface": {
+            "subtle": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.green.100}",
+              "$type": "color",
+              "$description": "Use as a light-tinted background for low-emphasis success feedback areas."
+            },
+            "elevated": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.green.500}",
+              "$type": "color",
+              "$description": "Use as the prominent background for high-emphasis success feedback components."
+            },
+            "muted": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.green.200}",
+              "$type": "color",
+              "$description": "Use as a mid-tinted background for medium-emphasis success feedback areas."
+            }
+          },
+          "border": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.green.500}",
+            "$type": "color",
+            "$description": "Use as the border color for success feedback components."
+          },
+          "on-surface": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.green.600}",
+            "$type": "color",
+            "$description": "Use as the text and icon color for success messages and confirmation states."
+          }
+        },
+        "warning": {
+          "surface": {
+            "subtle": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.orange.100}",
+              "$type": "color",
+              "$description": "Use as a light-tinted background for low-emphasis warning feedback areas."
+            },
+            "elevated": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.orange.400}",
+              "$type": "color",
+              "$description": "Use as the prominent background for high-emphasis warning feedback components."
+            },
+            "muted": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.yellow.300}",
+              "$type": "color",
+              "$description": "Use as a mid-tinted background for medium-emphasis warning feedback areas."
+            }
+          },
+          "on-surface": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.orange.600}",
+            "$type": "color",
+            "$description": "Use as the text and icon color for warning messages."
+          },
+          "border": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.orange.600}",
+            "$type": "color",
+            "$description": "Use as the border color for warning feedback components."
+          },
+          "on-surface-elevated": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.orange.500}",
+            "$type": "color",
+            "$description": "Use as the text and icon color for warning messages displayed on elevated/prominent surfaces."
+          }
+        },
+        "info": {
+          "on-surface": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.blue.700}",
+            "$type": "color",
+            "$description": "Use as the text and icon color for informational messages."
+          },
+          "surface": {
+            "subtle": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.blue.100}",
+              "$type": "color",
+              "$description": "Use as a light-tinted background for low-emphasis informational feedback areas."
+            },
+            "elevated": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.blue.500}",
+              "$type": "color",
+              "$description": "Use as the prominent background for high-emphasis informational feedback components."
+            },
+            "muted": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.blue.400}",
+              "$type": "color",
+              "$description": "Use as a mid-tinted background for medium-emphasis informational feedback areas."
+            }
+          },
+          "border": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.blue.600}",
+            "$type": "color",
+            "$description": "Use as the border color for informational feedback components."
+          }
+        },
+        "default": {
+          "surface": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.100}",
+            "$type": "color",
+            "$description": "Use as the surface background for neutral/default feedback components."
+          },
+          "on-surface": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.800}",
+            "$type": "color",
+            "$description": "Use as the text and icon color for neutral/default feedback messages."
+          },
+          "border": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.600}",
+            "$type": "color",
+            "$description": "Use as the border color for neutral/default feedback components."
+          }
+        }
+      },
+      "action": {
+        "primary": {
+          "bg": {
+            "default": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.blue.500}",
+              "$type": "color",
+              "$description": "Use as the default background color of primary action elements such as filled buttons and CTAs."
+            },
+            "hover": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.blue.600}",
+              "$type": "color",
+              "$description": "Use as the background of primary action elements in the hover state."
+            },
+            "click-on": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.blue.500}",
+              "$type": "color",
+              "$description": "Use as the background of primary action elements in the pressed state."
+            },
+            "inverse": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.neutral.400}",
+              "$type": "color",
+              "$description": "Use as the background of primary action elements displayed on dark or inverted surfaces."
+            },
+            "active": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.blue.300}",
+              "$type": "color",
+              "$description": "Use as the default background color of primary action elements such as filled buttons and CTAs."
+            }
+          },
+          "border": {
+            "default": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.neutral.300}",
+              "$type": "color",
+              "$description": "Use as the default border of primary action elements."
+            },
+            "focus": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.blue.400}",
+              "$type": "color",
+              "$description": "Use as the focus ring color of primary action elements in the focused state."
+            },
+            "hover+click-on": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.blue.500}",
+              "$type": "color",
+              "$description": "Use as the border of primary action elements in the hover state."
+            }
+          },
+          "on-surface": {
+            "inverse-active": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.neutral.50}",
+              "$type": "color",
+              "$description": "Use as the text and icon color on inverted primary action surfaces."
+            },
+            "default": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.deep-blue.700}",
+              "$type": "color",
+              "$description": "Use as the default text and icon color on primary action surfaces."
+            },
+            "hover": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.blue.800}",
+              "$type": "color",
+              "$description": "Use as the text and icon color on primary action surfaces in the hover state."
+            },
+            "subtle": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.neutral.700}",
+              "$type": "color",
+              "$description": "Use as the subdued text and icon color on primary action surfaces."
+            },
+            "active": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.blue.500}",
+              "$type": "color",
+              "$description": "Use as the default text and icon color on primary action surfaces."
+            }
+          }
+        },
+        "secondary": {
+          "bg-hover": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.blue.300}",
+            "$type": "color",
+            "$description": "Use as the background of secondary action elements in the hover state."
+          },
+          "bg-default": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.50}",
+            "$type": "color",
+            "$description": "Use as the default background of secondary action elements."
+          },
+          "bg-click-on": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.blue.300}",
+            "$type": "color",
+            "$description": "Use as the background of secondary action elements in the pressed state."
+          },
+          "on-surface": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.deep-blue.700}",
+            "$type": "color",
+            "$description": "Use as the text and icon color on secondary action surfaces."
+          },
+          "border": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.deep-blue.700}",
+            "$type": "color",
+            "$description": "Use as the border color of secondary action elements."
+          }
+        },
+        "disabled": {
+          "bg": {
+            "secondary": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.neutral.300}",
+              "$type": "color",
+              "$description": "Use as the background of disabled secondary action elements."
+            },
+            "tertiary": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.neutral.500}",
+              "$type": "color",
+              "$description": "Use as the background of disabled tertiary action elements."
+            },
+            "primary": {
+              "$extensions": {
+                "com.figma.scopes": [
+                  "ALL_SCOPES"
+                ],
+                "com.figma.hiddenFromPublishing": false
+              },
+              "$value": "{primitive.neutral.100}",
+              "$type": "color",
+              "$description": "Use as the background of disabled primary action elements."
+            }
+          },
+          "content-on-surface": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.600}",
+            "$type": "color",
+            "$description": "Use as the text and icon color on any disabled action element."
+          },
+          "border": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.neutral.600}",
+            "$type": "color",
+            "$description": "Use as the border color of any disabled action element."
+          }
+        },
+        "danger": {
+          "border": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.red.700}",
+            "$type": "color",
+            "$description": "Use as the border color for destructive/danger action elements."
+          },
+          "content-on-surface": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "ALL_SCOPES"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.red.700}",
+            "$type": "color",
+            "$description": "Use as the text and icon color for destructive/danger action elements."
+          }
+        }
+      },
+      "graph": {
+        "grid": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL",
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "{primitive.neutral.300}",
+          "$type": "color"
+        },
+        "axis": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "STROKE_COLOR"
+            ],
+            "com.figma.hiddenFromPublishing": false
+          },
+          "$value": "{primitive.neutral.500}",
+          "$type": "color"
+        },
+        "series": {
+          "01": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{Bright Blue.500}",
+            "$type": "color"
+          },
+          "02": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{Vivid Lavender.500}",
+            "$type": "color"
+          },
+          "03": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{Cute Megenta.500}",
+            "$type": "color"
+          },
+          "04": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.orange.300}",
+            "$type": "color"
+          },
+          "05": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{Arcadia.400}",
+            "$type": "color"
+          },
+          "06": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.blue.700}",
+            "$type": "color"
+          },
+          "07": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.alternative.bold.02}",
+            "$type": "color"
+          },
+          "08": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.red.400}",
+            "$type": "color"
+          },
+          "09": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{primitive.green.500}",
+            "$type": "color"
+          }
+        },
+        "area": {
+          "01": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{Bright Blue.100}",
+            "$type": "color"
+          },
+          "02": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{Vivid Lavender.100}",
+            "$type": "color"
+          },
+          "03": {
+            "$extensions": {
+              "com.figma.scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL",
+                "STROKE_COLOR"
+              ],
+              "com.figma.hiddenFromPublishing": false
+            },
+            "$value": "{Cute Megenta.100}",
+            "$type": "color"
+          }
+        }
+      },
+      "tag": {
+        "bg-accent-01": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-tag-bg-accent-01)"
+            }
+          },
+          "$value": "#edf2ff",
+          "$type": "color"
+        },
+        "bg-accent-02": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-tag-bg-accent-02)"
+            }
+          },
+          "$value": "#fff4e6",
+          "$type": "color"
+        },
+        "bg-accent-03": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-tag-bg-accent-03)"
+            }
+          },
+          "$value": "#e6fcf5",
+          "$type": "color"
+        },
+        "bg-accent-04": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-tag-bg-accent-04)"
+            }
+          },
+          "$value": "#fff0f6",
+          "$type": "color"
+        },
+        "bg-accent-05": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-tag-bg-accent-05)"
+            }
+          },
+          "$value": "#f3f0ff",
+          "$type": "color"
+        },
+        "bg-accent-06": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-tag-bg-accent-06)"
+            }
+          },
+          "$value": "#fff9db",
+          "$type": "color"
+        },
+        "bg-accent-07": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-tag-bg-accent-07)"
+            }
+          },
+          "$value": "#e3fafc",
+          "$type": "color"
+        },
+        "bg-accent-08": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-tag-bg-accent-08)"
+            }
+          },
+          "$value": "#f8f0fc",
+          "$type": "color"
+        },
+        "bg-accent-09": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-tag-bg-accent-09)"
+            }
+          },
+          "$value": "#ebfbee",
+          "$type": "color"
+        },
+        "text-accent-01": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-tag-text-accent-01)"
+            }
+          },
+          "$value": "#364fc7",
+          "$type": "color"
+        },
+        "text-accent-02": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-tag-text-accent-02)"
+            }
+          },
+          "$value": "#e8590c",
+          "$type": "color"
+        },
+        "text-accent-03": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-tag-text-accent-03)"
+            }
+          },
+          "$value": "#0b7285",
+          "$type": "color"
+        },
+        "text-accent-04": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-tag-text-accent-04)"
+            }
+          },
+          "$value": "#c2255c",
+          "$type": "color"
+        },
+        "text-accent-05": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-tag-text-accent-05)"
+            }
+          },
+          "$value": "#6741d9",
+          "$type": "color"
+        },
+        "text-accent-06": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-tag-text-accent-06)"
+            }
+          },
+          "$value": "#e67700",
+          "$type": "color"
+        },
+        "text-accent-07": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-tag-text-accent-07)"
+            }
+          },
+          "$value": "#1098ad",
+          "$type": "color"
+        },
+        "text-accent-08": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-tag-text-accent-08)"
+            }
+          },
+          "$value": "#9c36b5",
+          "$type": "color"
+        },
+        "text-accent-09": {
+          "$extensions": {
+            "com.figma.scopes": [
+              "TEXT_FILL"
+            ],
+            "com.figma.hiddenFromPublishing": false,
+            "com.figma.codeSyntax": {
+              "Web": "var(--semantic-tag-text-accent-09)"
+            }
+          },
+          "$value": "#2f9e44",
+          "$type": "color"
+        }
+      }
+    }
+  },
+  "Brnad colors/Mode 1": {
+    "Sparkling Silver": {
+      "100": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#fafafc",
+        "$type": "color"
+      },
+      "200": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#f4f5f8",
+        "$type": "color"
+      },
+      "300": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#eff1f5",
+        "$type": "color"
+      },
+      "400": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#e9ecf1",
+        "$type": "color"
+      },
+      "500": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#e4e7ee",
+        "$type": "color"
+      }
+    },
+    "Neon Peach": {
+      "100": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#fcf0e6",
+        "$type": "color"
+      },
+      "200": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#f9e1cd",
+        "$type": "color"
+      },
+      "300": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#fed1b1",
+        "$type": "color"
+      },
+      "400": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#fdc197",
+        "$type": "color"
+      },
+      "500": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#fdb27d",
+        "$type": "color"
+      }
+    },
+    "Cute Megenta": {
+      "100": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#feeafa",
+        "$type": "color"
+      },
+      "200": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#fdd6f5",
+        "$type": "color"
+      },
+      "300": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#fbc1f1",
+        "$type": "color"
+      },
+      "400": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#faadec",
+        "$type": "color"
+      },
+      "500": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#f998e7",
+        "$type": "color"
+      }
+    },
+    "Vivid Lavender": {
+      "100": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#f3e6fe",
+        "$type": "color"
+      },
+      "200": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#e7cdfd",
+        "$type": "color"
+      },
+      "300": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#dcb5fd",
+        "$type": "color"
+      },
+      "400": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#d09cfc",
+        "$type": "color"
+      },
+      "500": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#c483fb",
+        "$type": "color"
+      }
+    },
+    "Bright Blue": {
+      "100": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#d1ddff",
+        "$type": "color"
+      },
+      "200": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#a2baff",
+        "$type": "color"
+      },
+      "300": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#7498ff",
+        "$type": "color"
+      },
+      "400": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#4575ff",
+        "$type": "color"
+      },
+      "500": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#1753ff",
+        "$type": "color"
+      }
+    },
+    "Arcadia": {
+      "100": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#cccce2",
+        "$type": "color"
+      },
+      "200": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#9998c5",
+        "$type": "color"
+      },
+      "300": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#6767ab",
+        "$type": "color"
+      },
+      "400": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#34358a",
+        "$type": "color"
+      },
+      "500": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#252a5c",
+        "$type": "color"
+      }
+    },
+    "Accent Yellow": {
+      "100": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#fef9e6",
+        "$type": "color"
+      },
+      "200": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#fef3cd",
+        "$type": "color"
+      },
+      "300": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#fdedb5",
+        "$type": "color"
+      },
+      "400": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#fde79c",
+        "$type": "color"
+      },
+      "500": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "#fce183",
+        "$type": "color"
+      }
+    }
+  },
+  "Typography/Default": {
+    "font-family": {
+      "platform": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FONT_FAMILY"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "Figtree",
+        "$type": "text"
+      },
+      "code": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FONT_FAMILY"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": "Source Code Pro",
+        "$type": "text"
+      }
+    },
+    "font size": {
+      "base": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FONT_SIZE"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 14,
+        "$type": "number"
+      },
+      "lead": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FONT_SIZE"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 16,
+        "$type": "number"
+      },
+      "detail": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FONT_SIZE"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 12,
+        "$type": "number"
+      },
+      "heading1": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FONT_SIZE"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 38,
+        "$type": "number"
+      },
+      "heading2": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FONT_SIZE"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 30,
+        "$type": "number"
+      },
+      "heading3": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FONT_SIZE"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 24,
+        "$type": "number"
+      },
+      "heading4": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FONT_SIZE"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 20,
+        "$type": "number"
+      },
+      "heading5": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FONT_SIZE"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 18,
+        "$type": "number"
+      }
+    },
+    "line height": {
+      "base": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "LINE_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 22,
+        "$type": "number"
+      },
+      "lead": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "LINE_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 24,
+        "$type": "number"
+      },
+      "detail": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "LINE_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 18,
+        "$type": "number"
+      },
+      "heading1": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "LINE_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 46,
+        "$type": "number"
+      },
+      "heading2": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "LINE_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 38,
+        "$type": "number"
+      },
+      "heading3": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "LINE_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 32,
+        "$type": "number"
+      },
+      "heading4": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "LINE_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 28,
+        "$type": "number"
+      },
+      "heading5": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "LINE_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 24,
+        "$type": "number"
+      }
+    },
+    "font weight": {
+      "regular": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FONT_WEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 400,
+        "$type": "number"
+      },
+      "medium": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FONT_WEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 500,
+        "$type": "number"
+      },
+      "semibold": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FONT_WEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 600,
+        "$type": "number"
+      },
+      "bold": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "FONT_WEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 700,
+        "$type": "number"
+      }
+    }
+  },
+  "Dimensions/Default": {
+    "line width": {
+      "subtle": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "STROKE_FLOAT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 1,
+        "$type": "number",
+        "$description": "Use for standard, low-emphasis borders and dividers across most UI components."
+      },
+      "bold": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "STROKE_FLOAT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 2,
+        "$type": "number",
+        "$description": "Use for high-emphasis strokes that require maximum visual prominence, such as progress bar edges or selected state indicators."
+      },
+      "strong": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "STROKE_FLOAT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 1.5,
+        "$type": "number",
+        "$description": "Use for medium-emphasis strokes that need slightly more visual weight, such as focused or active input borders."
+      }
+    },
+    "screen size": {
+      "screensm": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 1280,
+        "$type": "number",
+        "$description": "Use to define the small breakpoint for layout adjustments on smaller desktop screens."
+      },
+      "screenxl": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 1600,
+        "$type": "number",
+        "$description": "Use to define the extra-large breakpoint for wide desktop screens."
+      },
+      "screenxs": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 640,
+        "$type": "number",
+        "$description": "Use to define the extra-small breakpoint for responsive layout adjustments on small screens."
+      },
+      "screenbase": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 1440,
+        "$type": "number",
+        "$description": "Use as the base breakpoint for the standard desktop layout."
+      },
+      "screenxlmax": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 1920,
+        "$type": "number",
+        "$description": "Use to define the maximum breakpoint for ultra-wide screens and large displays."
+      }
+    },
+    "spacing": {
+      "12": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 12,
+        "$type": "number",
+        "$description": "Use for moderate spacing in compact layouts or between related form elements."
+      },
+      "16": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 16,
+        "$type": "number",
+        "$description": "Use for default component spacing in standard layouts, such as padding in inputs and buttons."
+      },
+      "20": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 20,
+        "$type": "number",
+        "$description": "Use for comfortable spacing between components or within containers that need more breathing room."
+      },
+      "24": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 24,
+        "$type": "number",
+        "$description": "Use for generous spacing between component groups or within larger containers."
+      },
+      "32": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 32,
+        "$type": "number",
+        "$description": "Use for wide spacing between major layout sections or section-level containers."
+      },
+      "48": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 48,
+        "$type": "number",
+        "$description": "Use for the largest spacing between page-level content blocks or hero sections."
+      },
+      "56": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 56,
+        "$type": "number",
+        "$description": "Use for the largest spacing between page-level content blocks or hero sections."
+      },
+      "02": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 2,
+        "$type": "number",
+        "$description": "Use for the tightest spacing between closely grouped elements, applicable as margin, padding, or gap."
+      },
+      "04": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 4,
+        "$type": "number",
+        "$description": "Use for very compact spacing in tightly packed components such as inline tags or icon groups."
+      },
+      "08": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "GAP"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 8,
+        "$type": "number",
+        "$description": "Use for small spacing between related UI elements, such as icon-to-label gaps in buttons and inputs."
+      }
+    },
+    "border radius": {
+      "12": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 12,
+        "$type": "number",
+        "$description": "Use for pronounced corner rounding on modals, dialogs, and larger surface containers."
+      },
+      "24": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 24,
+        "$type": "number",
+        "$description": "Use for heavily rounded corners on pill-shaped elements such as tags, badges, and segmented controls."
+      },
+      "04": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 4,
+        "$type": "number",
+        "$description": "Use for subtle corner rounding on small interactive elements like inputs, dropdowns, and compact cards."
+      },
+      "00": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 100,
+        "$type": "number",
+        "$description": "Use for fully circular shapes such as avatars, circular icon buttons, and status indicators."
+      },
+      "08": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 8,
+        "$type": "number",
+        "$description": "Use for moderate corner rounding on cards, panels, and containers."
+      },
+      "06": {
+        "$extensions": {
+          "com.figma.scopes": [
+            "CORNER_RADIUS"
+          ],
+          "com.figma.hiddenFromPublishing": false
+        },
+        "$value": 6,
+        "$type": "number",
+        "$description": "Use for light corner rounding on standard buttons, form fields, and table rows."
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "Tokens",
+      "Colors/Value",
+      "Brnad colors/Mode 1",
+      "Typography/Default",
+      "Dimensions/Default"
+    ]
+  }
+}

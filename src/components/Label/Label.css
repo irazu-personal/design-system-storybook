@@ -1,0 +1,35 @@
+.spark-label {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--dimension-spacing-04);
+  border-radius: var(--dimension-border-radius-08);
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-base);
+  line-height: var(--typography-line-height-base);
+  font-weight: var(--typography-font-weight-medium);
+  color: var(--semantic-action-primary-on-surface-default);
+}
+
+.spark-label-text {
+  white-space: nowrap;
+}
+
+.spark-label-asterisk-wrap {
+  display: inline-flex;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+
+.spark-label-asterisk {
+  display: block;
+  width: 7px;
+  height: 7px;
+  flex-shrink: 0;
+  color: var(--semantic-content-brand);
+}
+
+.spark-label-help-icon {
+  flex-shrink: 0;
+  color: inherit;
+}

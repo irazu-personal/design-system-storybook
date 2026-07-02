@@ -1,0 +1,95 @@
+.spark-navigation {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: var(--dimension-spacing-16);
+  width: 100%;
+  min-height: 60px;
+  padding: 0 var(--dimension-spacing-32);
+  background: var(--semantic-surface-inverse);
+  box-shadow: var(--shadow-navigation);
+  box-sizing: border-box;
+  font-family: var(--typography-font-family-platform);
+}
+
+.spark-navigation-left,
+.spark-navigation-right {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+}
+
+.spark-navigation-left {
+  gap: var(--dimension-spacing-16);
+  flex: 1 1 auto;
+  align-self: stretch;
+}
+
+.spark-navigation-right {
+  gap: var(--dimension-spacing-16);
+  flex-shrink: 0;
+}
+
+.spark-navigation-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--dimension-spacing-12);
+  flex-shrink: 0;
+}
+
+.spark-navigation-logo {
+  display: block;
+  height: 24px;
+  width: auto;
+}
+
+.spark-navigation-beta {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 var(--dimension-space-margin-03);
+  border-radius: var(--dimension-border-radius-04);
+  background: var(--semantic-feedback-info-surface-subtle);
+  font-size: var(--typography-font-size-detail);
+  line-height: var(--typography-line-height-detail);
+  font-weight: var(--typography-font-weight-semibold);
+  color: var(--semantic-feedback-info-on-surface);
+}
+
+.spark-navigation-divider-fill.spark-divider-vertical {
+  align-self: stretch;
+  padding-block: 0;
+}
+
+.spark-navigation-divider-inset.spark-divider-vertical {
+  align-self: stretch;
+  padding-block: var(--dimension-spacing-16);
+}
+
+.spark-navigation-tabs {
+  display: inline-flex;
+  align-items: stretch;
+  min-width: 0;
+}
+
+.spark-navigation-help {
+  font-size: var(--typography-font-size-lead);
+  line-height: var(--typography-line-height-lead);
+  font-weight: 300;
+  color: var(--semantic-content-inverse);
+  white-space: nowrap;
+}
+
+.spark-navigation-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--dimension-spacing-08);
+}
+
+.spark-navigation .spark-avatar-small .spark-avatar-visual {
+  width: 32px;
+  height: 32px;
+}
+
+.spark-navigation-badge {
+  pointer-events: none;
+}

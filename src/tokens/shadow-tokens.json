@@ -1,0 +1,134 @@
+{
+  "Tokens": {
+    "toggle": {
+      "color": {
+        "$value": "#00230b33",
+        "$type": "color"
+      },
+      "type": {
+        "$value": "dropShadow",
+        "$type": "type"
+      },
+      "x": {
+        "$value": 0,
+        "$type": "x"
+      },
+      "y": {
+        "$value": 0,
+        "$type": "y"
+      },
+      "blur": {
+        "$value": 5,
+        "$type": "blur"
+      },
+      "spread": {
+        "$value": 0,
+        "$type": "spread"
+      }
+    },
+    "overlay": {
+      "color": {
+        "$value": "#6161611f",
+        "$type": "color"
+      },
+      "type": {
+        "$value": "dropShadow",
+        "$type": "type"
+      },
+      "x": {
+        "$value": 1,
+        "$type": "x"
+      },
+      "y": {
+        "$value": 3,
+        "$type": "y"
+      },
+      "blur": {
+        "$value": 17.100000381469727,
+        "$type": "blur"
+      },
+      "spread": {
+        "$value": 0,
+        "$type": "spread"
+      }
+    },
+    "navigation": {
+      "color": {
+        "$value": "#22264926",
+        "$type": "color"
+      },
+      "type": {
+        "$value": "dropShadow",
+        "$type": "type"
+      },
+      "x": {
+        "$value": 0,
+        "$type": "x"
+      },
+      "y": {
+        "$value": 1,
+        "$type": "y"
+      },
+      "blur": {
+        "$value": 10,
+        "$type": "blur"
+      },
+      "spread": {
+        "$value": 3,
+        "$type": "spread"
+      }
+    },
+    "drawer": {
+      "color": {
+        "$value": "#00230b0d",
+        "$type": "color"
+      },
+      "type": {
+        "$value": "dropShadow",
+        "$type": "type"
+      },
+      "x": {
+        "$value": -2,
+        "$type": "x"
+      },
+      "y": {
+        "$value": 0,
+        "$type": "y"
+      },
+      "blur": {
+        "$value": 20.100000381469727,
+        "$type": "blur"
+      },
+      "spread": {
+        "$value": 0,
+        "$type": "spread"
+      }
+    },
+    "drawer-icon-button": {
+      "color": {
+        "$value": "#0000001a",
+        "$type": "color"
+      },
+      "type": {
+        "$value": "dropShadow",
+        "$type": "type"
+      },
+      "x": {
+        "$value": 0,
+        "$type": "x"
+      },
+      "y": {
+        "$value": 0,
+        "$type": "y"
+      },
+      "blur": {
+        "$value": 12,
+        "$type": "blur"
+      },
+      "spread": {
+        "$value": 0,
+        "$type": "spread"
+      }
+    }
+  }
+}

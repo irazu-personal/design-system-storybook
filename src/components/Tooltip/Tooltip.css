@@ -1,0 +1,172 @@
+.spark-tooltip {
+  display: inline-flex;
+  font-family: var(--typography-font-family-platform);
+}
+
+.spark-tooltip-content {
+  position: relative;
+  background: var(--semantic-surface-tooltip);
+  color: var(--semantic-content-inverse);
+  padding: var(--dimension-spacing-08) var(--dimension-spacing-12);
+  border-radius: var(--dimension-border-radius-06);
+}
+
+.spark-tooltip-text {
+  margin: 0;
+  font-size: var(--typography-font-size-base);
+  line-height: var(--typography-line-height-base);
+  font-weight: var(--typography-font-weight-regular);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.spark-tooltip-slot {
+  min-width: 120px;
+  min-height: 48px;
+}
+
+.spark-tooltip-tip {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  pointer-events: none;
+}
+
+/* Tip points down — tooltip sits above the anchor */
+.spark-tooltip--tip-top-center,
+.spark-tooltip--tip-top-left,
+.spark-tooltip--tip-top-right {
+  padding-bottom: 6px;
+}
+
+.spark-tooltip--tip-top-center .spark-tooltip-tip,
+.spark-tooltip--tip-top-left .spark-tooltip-tip,
+.spark-tooltip--tip-top-right .spark-tooltip-tip {
+  bottom: -6px;
+  border-width: 6px 6px 0;
+  border-color: var(--semantic-surface-tooltip) transparent transparent;
+}
+
+.spark-tooltip--tip-top-center .spark-tooltip-tip {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.spark-tooltip--tip-top-left .spark-tooltip-tip {
+  left: 12px;
+}
+
+.spark-tooltip--tip-top-right .spark-tooltip-tip {
+  right: 12px;
+}
+
+/* Tip points up — tooltip sits below the anchor */
+.spark-tooltip--tip-bottom-center,
+.spark-tooltip--tip-bottom-left,
+.spark-tooltip--tip-bottom-right {
+  padding-top: 6px;
+}
+
+.spark-tooltip--tip-bottom-center .spark-tooltip-tip,
+.spark-tooltip--tip-bottom-left .spark-tooltip-tip,
+.spark-tooltip--tip-bottom-right .spark-tooltip-tip {
+  top: -6px;
+  border-width: 0 6px 6px;
+  border-color: transparent transparent var(--semantic-surface-tooltip);
+}
+
+.spark-tooltip--tip-bottom-center .spark-tooltip-tip {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.spark-tooltip--tip-bottom-left .spark-tooltip-tip {
+  left: 12px;
+}
+
+.spark-tooltip--tip-bottom-right .spark-tooltip-tip {
+  right: 12px;
+}
+
+/* Tip points right — tooltip sits to the left of the anchor */
+.spark-tooltip--tip-left-center {
+  padding-right: 6px;
+}
+
+.spark-tooltip--tip-left-center .spark-tooltip-tip {
+  right: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 6px 0 6px 6px;
+  border-color: transparent transparent transparent var(--semantic-surface-tooltip);
+}
+
+/* Tip points left — tooltip sits to the right of the anchor */
+.spark-tooltip--tip-right-center {
+  padding-left: 6px;
+}
+
+.spark-tooltip--tip-right-center .spark-tooltip-tip {
+  left: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 6px 6px 6px 0;
+  border-color: transparent var(--semantic-surface-tooltip) transparent transparent;
+}
+
+/* TooltipTrigger — hover/focus overlay on icon buttons */
+.spark-tooltip-trigger {
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.spark-tooltip-trigger-popup {
+  position: absolute;
+  pointer-events: none;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 120ms ease, visibility 120ms ease;
+}
+
+.spark-tooltip-trigger:not(.spark-tooltip-trigger-disabled):hover .spark-tooltip-trigger-popup,
+.spark-tooltip-trigger:not(.spark-tooltip-trigger-disabled):focus-within .spark-tooltip-trigger-popup {
+  opacity: 1;
+  visibility: visible;
+}
+
+.spark-tooltip-trigger-tooltip {
+  display: inline-flex;
+  width: max-content;
+  max-width: 240px;
+}
+
+.spark-tooltip-trigger-tooltip .spark-tooltip-text {
+  white-space: nowrap;
+}
+
+.spark-tooltip-trigger-placement-top .spark-tooltip-trigger-popup {
+  bottom: calc(100% + var(--dimension-spacing-04));
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.spark-tooltip-trigger-placement-bottom .spark-tooltip-trigger-popup {
+  top: calc(100% + var(--dimension-spacing-04));
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.spark-tooltip-trigger-placement-left .spark-tooltip-trigger-popup {
+  right: calc(100% + var(--dimension-spacing-04));
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.spark-tooltip-trigger-placement-right .spark-tooltip-trigger-popup {
+  left: calc(100% + var(--dimension-spacing-04));
+  top: 50%;
+  transform: translateY(-50%);
+}

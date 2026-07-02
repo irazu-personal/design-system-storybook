@@ -1,0 +1,147 @@
+.spark-tabs {
+  display: inline-flex;
+  font-family: var(--typography-font-family-platform);
+}
+
+.spark-tabs-top,
+.spark-tabs-bottom {
+  flex-direction: column;
+  width: 100%;
+}
+
+.spark-tabs-left,
+.spark-tabs-right {
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.spark-tabs-list {
+  display: flex;
+}
+
+.spark-tabs-top .spark-tabs-list,
+.spark-tabs-bottom .spark-tabs-list {
+  gap: var(--dimension-spacing-32);
+}
+
+.spark-tabs-left .spark-tabs-list,
+.spark-tabs-right .spark-tabs-list {
+  flex-direction: column;
+}
+
+.spark-tabs-divider {
+  flex-shrink: 0;
+  background: var(--semantic-border-default);
+}
+
+.spark-tabs-top .spark-tabs-divider {
+  width: 100%;
+  height: 1px;
+}
+
+.spark-tabs-bottom .spark-tabs-divider {
+  width: 100%;
+  height: 1px;
+  order: -1;
+}
+
+.spark-tabs-left .spark-tabs-divider {
+  width: 1px;
+  align-self: stretch;
+}
+
+.spark-tabs-right .spark-tabs-divider {
+  width: 1px;
+  align-self: stretch;
+  order: -1;
+}
+
+.spark-tab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--dimension-spacing-12);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  font-family: inherit;
+  color: var(--semantic-action-primary-on-surface-default);
+  white-space: nowrap;
+}
+
+.spark-tab-label {
+  font-size: var(--typography-font-size-lead);
+  line-height: var(--typography-line-height-lead);
+  font-weight: var(--typography-font-weight-regular);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.spark-tab-active {
+  color: var(--semantic-content-brand);
+}
+
+.spark-tab-active .spark-tab-label {
+  font-weight: var(--typography-font-weight-semibold);
+}
+
+.spark-tab-top.spark-tab-large,
+.spark-tab-bottom.spark-tab-large {
+  padding-block: var(--dimension-spacing-16);
+}
+
+.spark-tab-top.spark-tab-medium,
+.spark-tab-bottom.spark-tab-medium {
+  padding-block: var(--dimension-spacing-12);
+}
+
+.spark-tab-top.spark-tab-small,
+.spark-tab-bottom.spark-tab-small {
+  padding-block: var(--dimension-spacing-08);
+}
+
+.spark-tab-left.spark-tab-large,
+.spark-tab-right.spark-tab-large {
+  padding-inline: var(--dimension-spacing-24);
+  padding-block: var(--dimension-spacing-12);
+}
+
+.spark-tab-left.spark-tab-medium,
+.spark-tab-right.spark-tab-medium {
+  padding-inline: var(--dimension-spacing-24);
+  padding-block: var(--dimension-spacing-08);
+}
+
+.spark-tab-left.spark-tab-small,
+.spark-tab-right.spark-tab-small {
+  padding-inline: var(--dimension-spacing-24);
+  padding-block: var(--dimension-spacing-04);
+}
+
+.spark-tab-top.spark-tab-active {
+  border-bottom: var(--dimension-line-width-bold) solid var(--semantic-border-active);
+}
+
+.spark-tab-bottom.spark-tab-active {
+  border-top: var(--dimension-line-width-bold) solid var(--semantic-border-active);
+}
+
+.spark-tab-left.spark-tab-active {
+  border-right: var(--dimension-line-width-bold) solid var(--semantic-border-active);
+}
+
+.spark-tab-right.spark-tab-active {
+  border-left: var(--dimension-line-width-bold) solid var(--semantic-border-active);
+}
+
+.spark-tab-state-hover,
+.spark-tab-inactive:not(.spark-tab-disabled):not(.spark-tab-state-default):not(.spark-tab-state-hover):not(.spark-tab-state-disabled):hover {
+  color: var(--semantic-content-brand);
+}
+
+.spark-tab-disabled,
+.spark-tab-state-disabled {
+  cursor: not-allowed;
+  color: var(--semantic-action-disabled-content-on-surface);
+}

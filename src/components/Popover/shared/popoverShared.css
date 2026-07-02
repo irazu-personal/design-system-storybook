@@ -1,0 +1,173 @@
+.spark-popover {
+  display: inline-flex;
+  font-family: var(--typography-font-family-platform);
+  /* Shadow on the shell (not the panel) so left/top tips stay white at the join. */
+  filter: drop-shadow(1px 3px 17.1px rgba(97, 97, 97, 0.12));
+}
+
+.spark-popover-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  position: relative;
+  z-index: 0;
+  background: var(--semantic-surface-white);
+  border-radius: var(--dimension-border-radius-12);
+  overflow: hidden;
+}
+
+.spark-popover-tip {
+  flex-shrink: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  pointer-events: none;
+  position: relative;
+  z-index: 1;
+}
+
+.spark-popover--tip-right {
+  flex-direction: row;
+  align-items: center;
+}
+
+.spark-popover--tip-right .spark-popover-tip {
+  border-width: 8px 0 8px 8px;
+  border-color: transparent transparent transparent var(--semantic-surface-white);
+  margin-left: -1px;
+}
+
+.spark-popover--tip-left {
+  flex-direction: row;
+  align-items: center;
+}
+
+.spark-popover--tip-left .spark-popover-tip {
+  border-width: 8px 8px 8px 0;
+  border-color: transparent var(--semantic-surface-white) transparent transparent;
+  margin-right: -1px;
+}
+
+.spark-popover--tip-top {
+  flex-direction: column;
+  align-items: center;
+}
+
+.spark-popover--tip-top .spark-popover-tip {
+  border-width: 0 8px 8px;
+  border-color: transparent transparent var(--semantic-surface-white);
+  margin-bottom: -1px;
+}
+
+.spark-popover--tip-bottom {
+  flex-direction: column;
+  align-items: center;
+}
+
+.spark-popover--tip-bottom .spark-popover-tip {
+  border-width: 8px 8px 0;
+  border-color: var(--semantic-surface-white) transparent transparent;
+  margin-top: -1px;
+}
+
+.spark-popover-slot {
+  min-height: 129px;
+}
+
+.spark-popover-slot-placeholder {
+  width: 100%;
+  min-height: inherit;
+  background: var(--semantic-feedback-critical-surface-muted);
+}
+
+.spark-popover-general-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--dimension-spacing-12);
+  padding: var(--dimension-spacing-12) var(--dimension-spacing-16) var(--dimension-spacing-08);
+}
+
+.spark-popover-general-title {
+  margin: 0;
+  font-size: var(--typography-font-size-base);
+  font-weight: var(--typography-font-weight-semibold);
+  line-height: var(--typography-line-height-base);
+  color: var(--semantic-content-primary);
+}
+
+.spark-popover-general-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--dimension-spacing-08);
+  flex-shrink: 0;
+}
+
+.spark-popover-general-actions .spark-btn-icon-only {
+  width: 24px;
+  min-width: 24px;
+  height: 24px;
+  min-height: 24px;
+  padding: 0;
+  border-radius: var(--dimension-border-radius-06);
+}
+
+.spark-popover-general-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--dimension-spacing-12);
+  width: 100%;
+  box-sizing: border-box;
+  padding: var(--dimension-spacing-12) var(--dimension-spacing-16);
+}
+
+.spark-popover-text-header {
+  display: flex;
+  align-items: center;
+  gap: var(--dimension-spacing-08);
+  padding: var(--dimension-spacing-02) var(--dimension-spacing-16) 0;
+}
+
+.spark-popover-text-header-icon {
+  flex-shrink: 0;
+  color: var(--semantic-content-primary);
+}
+
+.spark-popover-text-title {
+  margin: 0;
+  font-size: var(--typography-font-size-base);
+  font-weight: var(--typography-font-weight-semibold);
+  line-height: var(--typography-line-height-base);
+  color: var(--semantic-content-primary);
+}
+
+.spark-popover-text-body {
+  padding: var(--dimension-spacing-04) var(--dimension-spacing-16);
+}
+
+.spark-popover-text-panel:not(:has(.spark-popover-text-footer)) .spark-popover-text-body {
+  padding-bottom: var(--dimension-spacing-12);
+}
+
+.spark-popover-text-content {
+  margin: 0;
+  font-size: var(--typography-font-size-base);
+  font-weight: var(--typography-font-weight-regular);
+  line-height: var(--typography-line-height-base);
+  color: var(--semantic-content-primary);
+}
+
+.spark-popover-text-footer {
+  display: flex;
+  align-items: center;
+  padding: var(--dimension-spacing-04) var(--dimension-spacing-16) var(--dimension-spacing-12);
+}
+
+.spark-popover-text-footer .spark-popover-text-close.spark-btn-ghost {
+  max-height: 24px;
+  min-height: 24px;
+  padding-inline: var(--dimension-spacing-04);
+  font-size: var(--typography-font-size-detail);
+  line-height: var(--typography-line-height-detail);
+}

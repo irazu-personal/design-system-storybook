@@ -1,0 +1,50 @@
+.spark-navigation-tab {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  min-width: 85px;
+  padding: 0 var(--dimension-spacing-12);
+  font-family: var(--typography-font-family-platform);
+  font-size: var(--typography-font-size-lead);
+  line-height: var(--typography-line-height-lead);
+  font-weight: 300;
+  color: var(--semantic-button-notification-content-on-surface);
+  text-decoration: none;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.spark-navigation-tab::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: var(--dimension-line-width-bold);
+  border-radius: var(--dimension-border-radius-02) var(--dimension-border-radius-02) 0 0;
+  background: transparent;
+}
+
+.spark-navigation-tab-active {
+  font-weight: var(--typography-font-weight-medium);
+}
+
+.spark-navigation-tab-active::after {
+  background: var(--semantic-border-inverse);
+}
+
+.spark-navigation-tab-hover {
+  font-weight: 300;
+  background: var(--semantic-button-notification-bg-hover);
+}
+
+.spark-navigation-tab-disabled {
+  color: var(--semantic-button-notification-content-on-surface-disabled);
+  cursor: not-allowed;
+}
+
+.spark-navigation-tab:not(.spark-navigation-tab-disabled):not(.spark-navigation-tab-hover):hover {
+  background: var(--semantic-button-notification-bg-hover);
+}

@@ -1,0 +1,65 @@
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Foundations/Dimensions" />
+
+# Dimensions
+
+Spacing, radius, and line-width tokens from the Figma **Dimensions** collection.
+
+## Spacing scale
+
+<div className="spacing-scale">
+  {[
+    ['02', '--dimension-spacing-02', '2px'],
+    ['04', '--dimension-spacing-04', '4px'],
+    ['08', '--dimension-spacing-08', '8px'],
+    ['12', '--dimension-spacing-12', '12px'],
+    ['16', '--dimension-spacing-16', '16px'],
+    ['20', '--dimension-spacing-20', '20px'],
+    ['24', '--dimension-spacing-24', '24px'],
+    ['32', '--dimension-spacing-32', '32px'],
+    ['48', '--dimension-spacing-48', '48px'],
+    ['56', '--dimension-spacing-56', '56px'],
+  ].map(([name, token, label]) => (
+    <div className="spacing-bar" key={name}>
+      <code>{token}</code>
+      <div className="spacing-bar-fill" style={{ width: `var(${token})` }} />
+      <span>{label}</span>
+    </div>
+  ))}
+</div>
+
+Legacy aliases `--dimension-size-*`, `--dimension-space-margin-*`, and `--dimension-space-padding-*` map to the spacing scale above for existing components.
+
+## Border radius
+
+<div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '1rem' }}>
+  {[
+    ['04', '--dimension-border-radius-04'],
+    ['06', '--dimension-border-radius-06'],
+    ['08', '--dimension-border-radius-08'],
+    ['12', '--dimension-border-radius-12'],
+    ['24', '--dimension-border-radius-24'],
+    ['00 (pill)', '--dimension-border-radius-00'],
+  ].map(([name, token]) => (
+    <div key={name} style={{ textAlign: 'center' }}>
+      <div className="radius-preview" style={{ borderRadius: `var(${token})` }} />
+      <code>{token}</code>
+    </div>
+  ))}
+</div>
+
+## Line width
+
+- `--dimension-line-width-subtle` — 1px
+- `--dimension-line-width-strong` — 1.5px
+- `--dimension-line-width-bold` — 2px
+- `--dimension-line-width-focus` — 2px (focus ring)
+
+## Screen sizes
+
+- `--dimension-screen-size-screenxs` — 640px
+- `--dimension-screen-size-screensm` — 1280px
+- `--dimension-screen-size-screenbase` — 1440px
+- `--dimension-screen-size-screenxl` — 1600px
+- `--dimension-screen-size-screenxlmax` — 1920px

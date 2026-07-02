@@ -1,0 +1,29 @@
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Foundations/Effects" />
+
+# Effects
+
+Drop shadows from the Figma **Shadow** token export (`src/tokens/shadow-tokens.json`). These tokens are documented here for review before they are applied to components.
+
+## Drop shadows
+
+<div style={{ display: 'flex', flexWrap: 'wrap', gap: '1.5rem', marginTop: '1rem' }}>
+  {[
+    ['toggle', '--shadow-toggle', 'Toggle controls'],
+    ['overlay', '--shadow-overlay', 'Overlays, modals, popovers'],
+    ['navigation', '--shadow-navigation', 'Navigation bars and menus'],
+    ['drawer', '--shadow-drawer', 'Side drawers and panels'],
+    ['drawer-icon-button', '--shadow-drawer-icon-button', 'Drawer toolbar icon buttons'],
+  ].map(([name, token, usage]) => (
+    <div key={name} style={{ textAlign: 'center', minWidth: '140px' }}>
+      <div className="shadow-preview" style={{ boxShadow: `var(${token})` }} />
+      <div style={{ marginTop: '0.5rem' }}>
+        <code>{token}</code>
+      </div>
+      <div style={{ fontSize: '0.875rem', color: 'var(--primitive-neutral-600)', marginTop: '0.25rem' }}>
+        {usage}
+      </div>
+    </div>
+  ))}
+</div>
