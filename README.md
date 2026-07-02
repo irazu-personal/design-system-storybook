@@ -54,9 +54,11 @@ python3 scripts/generate_colors_ts.py
 
 ## Deployment
 
-Pushes to `main` deploy to GitHub Pages via [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+Pushes to `main` deploy via [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) using **GitHub Actions** (not branch deploy).
 
-Enable Pages: **Settings → Pages → Deploy from branch → `gh-pages` / (root)**.
+**One-time setup:** **Settings → Pages → Build and deployment → Source: GitHub Actions**
+
+If a deploy times out, re-run the workflow from the Actions tab (GitHub Pages can queue deployments for several minutes on first publish).
 
 ## License
 
